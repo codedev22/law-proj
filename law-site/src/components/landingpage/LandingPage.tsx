@@ -7,6 +7,7 @@ import Specialization from "./Specialization";
 import LegalSolutions from "../common/LegalSolutions";
 import CaseForm from "../common/CaseForm";
 import OurPracticeArea from "../common/OurPracticeArea";
+import Banner from "../common/Banner";
 import { PhoneOutlined } from "@ant-design/icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faBars } from "@fortawesome/free-solid-svg-icons";
@@ -223,6 +224,7 @@ function LandingPage() {
         </div>
       </nav>
       <div className=" main-body-div">
+        <Banner/> 
         <Specialization />
         <TopLawyers />
         <LegalSolutions />

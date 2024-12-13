@@ -346,3 +346,19 @@ padding: 0.2rem;
 border-radius: 7px;
 padding: 0.2rem;
 }
+
+
+.banner-img{
+  width: 100%;
+  background-image: url('../../../assets/images/banner.png') !important;
+background-size: contain;
+}
+
+
+/* @media (max-width: 2560px) {
+  .banner-img{
+    height: 1000px;
+    background-size: contain;
+
+  }
+} */
