@@ -1,4 +1,3 @@
-import React from 'react'
 import { FloatButton } from "antd";
 
 import {
@@ -14,8 +13,8 @@ function Floatbtn() {
       <FloatButton
       icon={<WhatsAppOutlined style={{ fontSize: '20px', color: '#25D366' }} />}
       style={{
-        right: 5,
-        bottom: 24,
+        right: 3,
+        bottom: 4,
       }}
       className="whatsapp-float"
       onClick={handleRedirect}

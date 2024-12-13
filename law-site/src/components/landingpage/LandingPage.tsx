@@ -1,107 +1,106 @@
 import "../style/landingpage-styles/LandingPage.css";
 import logo from "../../assets/images/logo1.png";
-import logo1 from '../../assets/images/logo2.png'
 import Floatbtn from "./Floatbtn";
-import Content from "./Content";
 import Footer from "../common/Footer";
 import TopLawyers from "../common/TopLawyers";
 import Specialization from "./Specialization";
 import LegalSolutions from "../common/LegalSolutions";
-import {
-  PhoneOutlined,
-} from "@ant-design/icons";
+import CaseForm from "../common/CaseForm";
+import OurPracticeArea from "../common/OurPracticeArea";
+import { PhoneOutlined } from "@ant-design/icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope, faBars } from "@fortawesome/free-solid-svg-icons";
 
 function LandingPage() {
   return (
     <div>
-      <nav className="navbar py-0 navbar-expand-lg bg-body-tertiary  ">
+      <nav className="navbar py-0 navbar-expand-lg ">
         <div
           style={{ backgroundColor: "#18273E" }}
-          className="container-fluid  p-3"
+          className="container-fluid d-flex p-3 "
         >
           <div
+            className="main-logo-div    "
             style={{
-              height: "120px",
-              width: "320px",
+              height: "55px",
+              position: "relative",
             }}
           >
             <img
+              className="main-logo  "
               style={{
-                height: "300px",
-                width: "350px",
-                marginTop: "-5rem",
-                marginLeft: "-1.3rem",
+                height: "265px",
+                width: "300px",
+                position: "absolute",
+                marginTop: "-6.4rem",
+                marginLeft: "-2rem",
               }}
               src={logo}
               alt=""
             />
           </div>
-          <button
-            style={{ backgroundColor: "#C7B480" }}
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasNavbar"
-            aria-controls="offcanvasNavbar"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
-         
-         
 
-          <div className="num-con-div d-flex align-items-center justify-content-end">
-            <div className="me-3 text-light">
-              <PhoneOutlined style={{ marginRight: "8px" }} />
-              +91 7550187712
+          <div className="num-con-div  d-flex align-items-center justify-content-end ">
+            <div className="me-3">
+              <button
+              style={{backgroundColor:"#BF976C",borderRadius:'5px'}}
+                className="btn offcan-button btn-sm "
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar"
+                aria-label="Toggle navigation"
+              >
+               <FontAwesomeIcon
+                  style={{  fontSize: "20px" }}
+                  className="text-light offcan-icon"
+                  icon={faBars}
+                />
+              </button>
+          
             </div>
-            <button
-              className="btn btn-lg"
-              style={{
-                backgroundColor: "#C7B480",
-                color: "#18273E",
-                borderRadius: "25px",
-              }}
-            >
-              Consultation
-            </button>
+            <div className="me-3  mt-3 callus-div text-light">
+              <p>
+                <PhoneOutlined  /> +91 8110011188
+              </p>
+            </div>
+            <div className="consultation-div">
+              <button
+                className="consultation-button btn btn-lg  "
+                style={{
+                  backgroundColor: "#BF976C",
+                  color: "#18273E",
+                  borderRadius: "5px",
+                }}
+              >
+                <span className="consultation-text ">Consultation</span>
+                <FontAwesomeIcon
+                  style={{ display: "none", fontSize: "20px" }}
+                  className="text-light consultation-icon "
+                  icon={faEnvelope}
+                />
+              </button>
+            </div>
           </div>
         </div>
       </nav>
-       <nav className=" menu-nav navbar py-0 navbar-expand-lg  ">
-        <div style={{ backgroundColor: "#18273E" }} className="container-fluid px-4 ">
-          
-          <div
+      <nav className=" menu-nav navbar py-0  navbar-expand-lg ">
+        <div
           style={{ backgroundColor: "#18273E" }}
-            className="offcanvas offcanvas-end"
-            tabindex="-1"
+          className="container-fluid  "
+        >
+          <div
+            style={{ backgroundColor: "#18273E" }}
+            className="offcanvas offcanvas-end custom-offcanvas w-75"
+            tabIndex={-1}
             id="offcanvasNavbar"
             aria-labelledby="offcanvasNavbarLabel"
           >
-            <div className="offcanvas-header">
-            <div
-            style={{
-              height: "120px",
-              width: "320px",
-            }}
-          >
-            <img
-              style={{
-                height: "300px",
-                width: "350px",
-                marginTop: "-5rem",
-              }}
-              src={logo1}
-              alt=""
-            />
-          </div>
-
-            </div>
             <div className="offcanvas-body">
               <ul className="navbar-nav ">
                 <li className="nav-item ">
                   <a
-                    style={{ color: "#C7B480" }}
+                    style={{ color: "#BF976C" }}
                     className="nav-link active "
                     aria-current="page"
                     href="#"
@@ -111,7 +110,7 @@ function LandingPage() {
                 </li>
                 <li className="nav-item">
                   <a
-                    style={{ color: "#C7B480" }}
+                    style={{ color: "#BF976C" }}
                     className="nav-link active "
                     aria-current="page"
                     href="#"
@@ -121,7 +120,7 @@ function LandingPage() {
                 </li>
                 <div className="dropdown">
                   <button
-                    style={{ marginTop: "0.1rem", color: "#C7B480" }}
+                    style={{ marginTop: "0.1rem", color: "#BF976C" }}
                     className="btn dropdown-toggle "
                     type="button"
                     data-bs-toggle="dropdown"
@@ -131,11 +130,11 @@ function LandingPage() {
                   </button>
                   <ul
                     style={{ backgroundColor: "#18273E" }}
-                    className="dropdown-menu"
+                    className="dropdown-menu practice-list"
                   >
                     <li>
                       <a
-                        style={{ color: "#C7B480" }}
+                        style={{ color: "#BF976C" }}
                         className="dropdown-item"
                         href="#"
                       >
@@ -144,7 +143,7 @@ function LandingPage() {
                     </li>
                     <li>
                       <a
-                        style={{ color: "#C7B480" }}
+                        style={{ color: "#BF976C" }}
                         className="dropdown-item"
                         href="#"
                       >
@@ -153,7 +152,7 @@ function LandingPage() {
                     </li>
                     <li>
                       <a
-                        style={{ color: "#C7B480" }}
+                        style={{ color: "#BF976C" }}
                         className="dropdown-item"
                         href="#"
                       >
@@ -162,7 +161,7 @@ function LandingPage() {
                     </li>
                     <li>
                       <a
-                        style={{ color: "#C7B480" }}
+                        style={{ color: "#BF976C" }}
                         className="dropdown-item"
                         href="#"
                       >
@@ -171,7 +170,7 @@ function LandingPage() {
                     </li>
                     <li>
                       <a
-                        style={{ color: "#C7B480" }}
+                        style={{ color: "#BF976C" }}
                         className="dropdown-item"
                         href="#"
                       >
@@ -180,7 +179,7 @@ function LandingPage() {
                     </li>
                     <li>
                       <a
-                        style={{ color: "#C7B480" }}
+                        style={{ color: "#BF976C" }}
                         className="dropdown-item"
                         href="#"
                       >
@@ -189,7 +188,7 @@ function LandingPage() {
                     </li>
                     <li>
                       <a
-                        style={{ color: "#C7B480" }}
+                        style={{ color: "#BF976C" }}
                         className="dropdown-item"
                         href="#"
                       >
@@ -200,7 +199,7 @@ function LandingPage() {
                 </div>
                 <li className="nav-item">
                   <a
-                    style={{ color: "#C7B480" }}
+                    style={{ color: "#BF976C" }}
                     className="nav-link active "
                     aria-current="page"
                     href="#"
@@ -210,7 +209,7 @@ function LandingPage() {
                 </li>
                 <li className="nav-item">
                   <a
-                    style={{ color: "#C7B480" }}
+                    style={{ color: "#BF976C" }}
                     className="nav-link active "
                     aria-current="page"
                     href="#"
@@ -222,17 +221,17 @@ function LandingPage() {
             </div>
           </div>
         </div>
-
-      </nav> 
-      <div className="p-5">
-        <Content />
-        <Specialization/>
-        <TopLawyers/>
-        <LegalSolutions/>
+      </nav>
+      <div className=" main-body-div">
+        <Specialization />
+        <TopLawyers />
+        <LegalSolutions />
+        <OurPracticeArea />
+        <CaseForm />
       </div>
       {/* Footer */}
-      <Footer/>
-        {/* Footer */}
+      <Footer />
+      {/* Footer */}
       <Floatbtn />
     </div>
   );

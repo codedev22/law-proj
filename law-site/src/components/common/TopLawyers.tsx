@@ -1,41 +1,57 @@
-import img from "../../assets/images/AdvocateTalk.jpg";
-import '../style/common-styles/Common.css'
+import "../style/common-styles/Common.css";
 import { DoubleRightOutlined } from "@ant-design/icons";
 function TopLawyers() {
   return (
     <div>
-      <div className="top-law-div container-fluid d-flex justify-content-center ">
-        <div className="img-div p-4 ">
-          <img style={{ maxWidth: '100%', display: 'block', height: 'auto', boxSizing: 'border-box' }} src={img} alt="" />
-        </div>
-        <div className="d-flex flex-wrap top-law-subdiv   ">
-          <p style={{fontSize:'40px',textAlign:'justify'}}> <b>Top Recommended</b>  <br /> <b> Lawyers in</b> <br /><b style={{color: "#C7B480"}}>India</b></p>
-          <p style={{fontSize:'20px'}}>
-            Our clients are our first priority! Our legal services are
-            client-focused and client-oriented. We treat our Client’s cases with
-            the utmost  professionalism. Focus on achieving the best possible
-            results for our clients.
+      <div className="top-law-div container-fluid d-flex  mt-5 p-0   ">
+        <div className="d-flex flex-wrap top-law-subdiv    ">
+          <p style={{ fontSize: "40px" }}>
+            {" "}
+            <b>
+              Recognized <b style={{color:'#BF976C'}} >Advocates</b> and{" "}
+              <b className="text-danger">
+                {" "}
+                <b style={{color:'#BF976C'}} >Lawyers</b>
+              </b>
+            </b>{" "}
+            <b> for Excellence in</b> <br />
+            <b>Tamil Nadu and All over India</b>
           </p>
-
+          <p style={{ fontSize: "20px" }}>
+            With professionalism at our core, we prioritize our clients' welfare
+            through trust, transparency, and personalized attention. Our
+            tailored legal strategies are designed to protect your rights and
+            deliver the best outcomes. Your success is not just our goal— it’s
+            our mission.
+          </p>
+          
           <div className="col">
             <div className="d-flex flex-column">
               <ul
                 style={{ fontSize: "20px" }}
                 className=" text-start list-unstyled   "
               >
-                <li >
-                  <DoubleRightOutlined style={{ color: "#C7B480" }} className="mx-1" />
-                  Get Your Legal Advice
+                <li>
+                  <DoubleRightOutlined
+                    style={{ color: "#BF976C" }}
+                    className="mx-1"
+                  />
+                  Trusted Legal Guidance Here
                 </li>
-                <li >
-                  <DoubleRightOutlined style={{ color: "#C7B480" }} className="mx-1" />
-                  Experts Lawyers
+                <li>
+                  <DoubleRightOutlined
+                    style={{ color: "#BF976C" }}
+                    className="mx-1"
+                  />
+                  Experienced Advocates for You
                 </li>
-                <li >
-                  <DoubleRightOutlined style={{ color: "#C7B480" }} className="mx-1" />
-                  Competitive Fees Rates
+                <li>
+                  <DoubleRightOutlined
+                    style={{ color: "#BF976C" }}
+                    className="mx-1"
+                  />
+                  Affordable Legal Solutions
                 </li>
-
               </ul>
             </div>
           </div>
@@ -45,20 +61,27 @@ function TopLawyers() {
                 style={{ fontSize: "20px" }}
                 className=" text-start list-unstyled   "
               >
-                <li >
-                  <DoubleRightOutlined style={{ color: "#C7B480" }} className="mx-1" />
-                  Fighting For Deserved Money
+                <li>
+                  <DoubleRightOutlined
+                    style={{ color: "#BF976C" }}
+                    className="mx-1"
+                  />
+                  Claim What's Rightfully Yours
                 </li>
-                <li >
-                  <DoubleRightOutlined style={{ color: "#C7B480" }} className="mx-1" />
-                  Get Your Rights Back
+                <li>
+                  <DoubleRightOutlined
+                    style={{ color: "#BF976C" }}
+                    className="mx-1"
+                  />
+                  Restoring Justice, Securing Rights
                 </li>
-                <li >
-                  <DoubleRightOutlined style={{ color: "#C7B480" }} className="mx-1" />
-                  Justice For All
-
+                <li>
+                  <DoubleRightOutlined
+                    style={{ color: "#BF976C" }}
+                    className="mx-1"
+                  />
+                  Defenders of Fair Justice
                 </li>
-
               </ul>
             </div>
           </div>

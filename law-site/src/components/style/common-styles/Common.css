@@ -16,7 +16,7 @@
 } */
 
 .phone-btn {
-    background-color: #dc3545 !important;  /* Default background color */
+    background-color: #BF976C!important;  /* Default background color */
     color: #fff !important; /* Default icon color */
     transition: 0.3s ease !important;
   }
@@ -30,13 +30,13 @@
   }
   
   .phone-btn:hover .phone-icon {
-    color: red !important; /* Change icon color on hover */
+    color: #BF976C !important; /* Change icon color on hover */
 
   }
 
 
   .mail-btn {
-    background-color: #dc3545 !important;  /* Default background color */
+    background-color: #BF976C !important;  /* Default background color */
     color: #fff !important; /* Default icon color */
     transition: 0.3s ease !important;
   }
@@ -50,12 +50,11 @@
   }
   
   .mail-btn:hover .mail-icon {
-    color: red !important; /* Change icon color on hover */
+    color: #BF976C; /* Change icon color on hover */
 
   }
 
-  .whatsapp-float{
-    color: red;
+  .whatsapp-float :hover{
   }
   
   /* @media screen and (min-width: 990px) {
@@ -121,6 +120,7 @@
       margin-top: 2rem !important;
    }
   
+   
     .phone-btn-adjuster {
       display: flex;
       flex-wrap: wrap;
@@ -132,8 +132,28 @@
       justify-content: start;
       align-items: start;
     }
+    .form-div{
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .og-form{
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .first-field-div{
+      display: flex;
+      flex-wrap: wrap;
+
+    }
+ 
+
   }
   
+
+  
+
+
 /* 
   .img-div{
     height: 500px;
@@ -164,7 +184,7 @@
 
   
 
-  @media screen and (max-width: 4255px) {
+  @media screen and (max-width: 425px) {
     .legal-parent{
       text-align:start;
     }
@@ -175,3 +195,154 @@
   }
 
   }
+
+  .list-btn {
+    margin-bottom: 10px;
+}
+
+
+
+
+@media screen and (max-width: 387px) {
+
+  .footer {
+    background-color: #f8f9fa; /* Example background color */
+    position: relative; /* Change to absolute if necessary */
+    bottom: 0;
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .footcontainer-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .footcontainer-1 .row {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .footrow-1{
+    padding: 0;
+  }
+  .footcontainer-1 .col {
+    width: 100%;
+
+    margin-bottom: 30px;
+  }
+
+  .socialmedia,
+  .practice-area-ul {
+    width: 100%;
+    text-align: left;
+  }
+
+  .socialmedia {
+    margin-bottom: 30px;
+  }
+  .social-container{
+    margin-top: 2rem !important;
+ }
+
+ 
+  .phone-btn-adjuster {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .mail-btn-adjuster {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: start;
+  }
+  .form-div{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .og-form{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .form-button{
+    display: flex;
+  }
+
+  .first-field-div{
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+}
+
+
+
+
+
+
+
+
+
+.footer{
+  padding: 1rem;
+}
+
+.footcontainer-1{
+  padding: 1rem;
+}
+
+.footrow1{
+  padding: 0rem !important;
+}
+@media (max-width: 768px) {
+  .footer{
+    padding: 0.5rem;
+  }
+  
+  .footcontainer-1{
+    padding: 1rem;
+  }
+
+  
+  
+  
+  
+  
+}
+
+.insta-icon{
+  border-radius: 7px;
+  color: #fff;
+   background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  box-shadow: 0px 3px 10px rgba(0,0,0,.25) !important;
+  border-radius: 7px;
+  padding: 0.2rem;
+}
+
+
+  
+.linkedin-icon{
+  background-color: rgb(9, 88, 161);
+  color: rgb(255, 255, 255);
+  border-radius: 7px;
+padding: 0.2rem;
+}
+
+.facebook-icon{
+  background-color: rgb(255, 255, 255);
+  color: #063da5;
+  border-radius: 7px;
+padding: 0.2rem;
+}
+
+.x-icon{
+  background-color: black;
+  color: white;
+border-radius: 7px;
+padding: 0.2rem;
+}

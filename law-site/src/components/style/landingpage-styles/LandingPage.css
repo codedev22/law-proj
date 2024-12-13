@@ -13,7 +13,7 @@
   .dropdown-menu:hover .dropdown-item:hover {
     opacity: 1; /* Ensure the hovered item is fully visible */
     background-color: transparent;
-    color: #C7B480;
+    color: #BF976C;
 
   }
 
@@ -39,7 +39,7 @@
 
 
  .practice-area-ul li:hover {
-  color: #C7B480; /* Changes text color to red on hover */
+  color: #BF976C; /* Changes text color to red on hover */
   cursor: pointer; /* Optional: Adds a pointer cursor for better UX */
   transform: translateX(2px);
   transition: 0.3s ease;
@@ -50,13 +50,6 @@
 
 }
 
-@media screen and (max-width: 714px) {
-
-  .num-con-div{
-    margin-left: 1.5rem;
-  }
-
-}
 
 .adv-talk-div{
   background-image: url('../../../assets//images/AdvocateTalk.jpg');
@@ -127,3 +120,177 @@
   transition: 0.3s ease;
   
   }
+
+
+.practice-list {
+  display: none; /* Hide dropdown items by default */
+  padding: 1rem;
+  
+  list-style: none;
+
+}
+
+
+
+
+   
+  
+
+
+
+
+.practice-list li a {
+text-decoration: none !important;
+}
+
+.dropdown-item-container:hover .practice-list {
+  display: block; /* Show dropdown items on hover */
+  position: absolute;
+  background-color: #18273e;
+  z-index: 1000;
+}
+
+/* Media query for small screens */
+@media (max-width: 992px) {
+  .dropdown-item-container .dropdown-header {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .practice-list {
+    display: block; /* Always show items as a list */
+    position: static; /* Remove absolute positioning */
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .practice-list li a {
+    margin: 5px 0; /* Add spacing between items */
+  text-decoration: none;
+  }
+
+  .dropdown-item-container:hover .practice-list {
+    display: block; /* Ensure hover effect doesn't override small-screen behavior */
+    transition: 0.3s ease;
+  }
+}
+
+
+
+
+/* Default styles for the list */
+
+.practice-list li {
+  margin: 5px 0;
+  padding: 3px;
+  color: #BF976C; /* Your desired text color */
+}
+
+
+.main-body-div{
+  padding: 2rem;
+}
+
+@media (max-width: 768px) {
+  .main-body-div {
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  
+
+  
+
+
+
+  
+  
+  
+}
+
+
+
+
+
+
+.offcan-button{
+  height: 40px;
+  width: 45px;
+  margin-top: -0.5rem;
+  display: none !important;
+}
+
+
+.consultation-text {
+  display: inline;
+}
+
+.consultation-icon {
+  display: none;
+}
+
+
+.offcan-icon{
+  margin-left: -0.1rem;
+}
+/* Show the button only on mobile view (max-width: 768px) */
+@media screen and (max-width: 991px) {
+
+  .offcan-button{
+    display: inline !important;
+  }
+.callus-div{
+  display: none !important;
+}
+.consultation-text {
+  display: none;
+}
+
+
+.consultation-icon {
+  display: inline !important;
+  margin-bottom: 1.5rem !important;
+  margin-left: -0.3rem;
+}
+.consultation-button{
+  height: 40px;
+  width: 45px;
+  margin-top: -0.5rem;
+}
+
+  
+   .main-logo{
+    margin-top: -6.7rem !important;
+    width: 270px !important;
+  } 
+ .num-con-div{
+  padding-left: 1rem !important;
+ }
+}
+
+
+@media screen and (max-width: 380px) {
+  .num-con-div{
+    display: flex;
+  }
+  .main-logo{
+    width: 200px !important;
+    height:200px !important;
+    margin-top: -5.5rem !important;
+  }
+  .main-logo-div{
+    height:30px !important
+  }
+  
+.consultation-icon {
+  margin-bottom: 0.5rem !important;
+}
+}
+  
+
+.consultation-button {
+outline: white !important;
+}
