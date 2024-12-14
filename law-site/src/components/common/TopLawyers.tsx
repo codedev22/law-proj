@@ -3,7 +3,7 @@ import { DoubleRightOutlined } from "@ant-design/icons";
 function TopLawyers() {
   return (
     <div>
-      <div className="top-law-div container-fluid d-flex  mt-5 p-0   ">
+      <div className="top-law-div container-fluid   mt-5 p-0   ">
         <div className="d-flex flex-wrap top-law-subdiv    ">
           <p style={{ fontSize: "40px" }}>
             {" "}

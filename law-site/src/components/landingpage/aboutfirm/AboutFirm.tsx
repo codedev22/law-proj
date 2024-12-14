@@ -4,10 +4,10 @@ import {faMagnifyingGlass,faPaperPlane,faBank,faPeopleRoof,faPeopleGroup,faAward
 import "../../style/landingpage-styles/AboutFirm.css";
 function AboutFirm() {
   return (
-    <div className="container-fluid p-3 d-flex flex-wrap ">
+    <div style={{paddingInline:'1.8rem'}} className="container mt-4  d-flex flex-wrap ">
       <div style={{boxShadow:'0px 0px 5px 0px'}} className='row d-flex '>
 
-      <div className="col p-5">
+      <div className="col ">
         <p style={{fontSize:'20px'}}>Start New Case</p>
         <p style={{fontSize:'35px'}}> <b>How it Works?</b> </p>
         <div className="case-div ">
@@ -43,7 +43,7 @@ function AboutFirm() {
           </ul>
         </div>
       </div>
-      <div className="col p-5">
+      <div className="col ">
         <p style={{fontSize:'20px'}}>About the Firm </p>
         <p style={{fontSize:'35px'}}> <b>Our History</b> </p>
 
@@ -59,7 +59,7 @@ function AboutFirm() {
                 building a foundation of trust and integrity.{" "}
               </p>
             </li>
-            <li className="p-2 ">
+            <li className="p-2  ">
             <FontAwesomeIcon className='legacy-icon' style={{height:'60px'}}  icon={faPeopleGroup}/>
             
               <p style={{fontSize:'20px'}}>2020 – A Growing Legacy</p>
@@ -72,7 +72,7 @@ function AboutFirm() {
             <li className="p-2 ">
             <FontAwesomeIcon className='award-icon' style={{height:'60px'}}  icon={faAward}/>
             
-             <p style={{fontSize:'20px'}}>2024 – Excellence in Every Case</p> 
+             <p  style={{fontSize:'20px'}}>2024 – Excellence in Every Case</p> 
               <p>
                 Having achieved numerous successful outcomes, our efficient
                 processes and meticulous approach ensure smooth case handling

@@ -188,43 +188,23 @@ text-decoration: none !important;
 }
 
 
-.main-body-div{
-  padding: 2rem;
-}
-
-@media (max-width: 768px) {
-  .main-body-div {
-    padding: 1rem;
-  }
-}
-
-@media screen and (max-width: 767px) {
-
-  
-
-  
-
-
-
-  
-  
-  
-}
 
 
 
 
 
 
-.offcan-button{
+
+
+/* .offcan-button{
   height: 40px;
   width: 45px;
   margin-top: -0.5rem;
   display: none !important;
-}
+} */
 
 
-.consultation-text {
+/* .consultation-text {
   display: inline;
 }
 
@@ -235,9 +215,9 @@ text-decoration: none !important;
 
 .offcan-icon{
   margin-left: -0.1rem;
-}
+} */
 /* Show the button only on mobile view (max-width: 768px) */
-@media screen and (max-width: 991px) {
+/* @media screen and (max-width: 991px) {
 
   .offcan-button{
     display: inline !important;
@@ -250,7 +230,7 @@ text-decoration: none !important;
 }
 
 
-.consultation-icon {
+ .consultation-icon {
   display: inline !important;
   margin-bottom: 1.5rem !important;
   margin-left: -0.3rem;
@@ -259,38 +239,27 @@ text-decoration: none !important;
   height: 40px;
   width: 45px;
   margin-top: -0.5rem;
-}
+  background-color: transparent !important;
+}  */
 
   
-   .main-logo{
-    margin-top: -6.7rem !important;
-    width: 270px !important;
-  } 
- .num-con-div{
-  padding-left: 1rem !important;
- }
-}
+   
+ 
+/* } */
 
 
 @media screen and (max-width: 380px) {
-  .num-con-div{
+  /* .num-con-div{
     display: flex;
-  }
-  .main-logo{
-    width: 200px !important;
-    height:200px !important;
-    margin-top: -5.5rem !important;
-  }
-  .main-logo-div{
-    height:30px !important
-  }
+  } */
   
-.consultation-icon {
+  
+/* .consultation-icon {
   margin-bottom: 0.5rem !important;
-}
+} */
 }
   
 
-.consultation-button {
+/* .consultation-button {
 outline: white !important;
-}
+} */

@@ -11,11 +11,11 @@ function CorporateLegalServices() {
         <div   className="container-fluid d-flex flex-wrap col  ">
         <div className="mx-2 ">
             <div
-              className="corporate-img "
+              className="corporate-img"
               style={{ width: "230px", height: "150px" , boxShadow:'0px 0px 10px 1px'}}
             ></div>
           </div>
-          <div  className=" col mx-2">
+          <div className=" col mx-2">
             <p style={{fontSize:"20px"}}>
               We offer comprehensive solutions to businesses of all sizes in
               India. From company formation to mergers, acquisitions, and

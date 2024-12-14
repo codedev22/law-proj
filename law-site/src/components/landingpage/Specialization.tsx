@@ -1,7 +1,7 @@
 import '../style/landingpage-styles/LandingPage.css'
 function Specialization() {
   return (
-    <div className="container-fluid mt-5 ">
+    <div className="container-fluid mt-4 ">
       <div style={{gap:30}} className="row ">
         <div style={{height:"300px" ,border:'1px solid'}} className=" adv-talk-div col d-flex justify-content-center align-items-center">
             <p style={{fontSize:'25px'}} className=" text-center text-light  "> <b>+Thousand of Trusted Client</b></p>
