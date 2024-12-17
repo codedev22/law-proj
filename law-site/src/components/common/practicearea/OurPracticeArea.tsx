@@ -1,7 +1,16 @@
-import { useState } from "react";
-import "../style/practice-area-styles/PracticeCommon.css";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBriefcase, faPersonDigging, faAnglesRight ,faGavel, faHandcuffs, faUsers, faHome, faDollarSign } from '@fortawesome/free-solid-svg-icons';
+import { useState, useEffect } from "react";
+import "../../style/practice-area-styles/PracticeCommon.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faBriefcase,
+  faPersonDigging,
+  faAnglesRight,
+  faGavel,
+  faHandcuffs,
+  faUsers,
+  faHome,
+  faDollarSign,
+} from "@fortawesome/free-solid-svg-icons";
 
 import CorporateLegalServices from "./practice-area-items/CorporateLegalServices";
 import FamilyLaw from "./practice-area-items/FamilyLaw";
@@ -15,6 +24,10 @@ function OurPracticeArea() {
   const [viewField, setViewField] = useState<number | null>(null);
   const [fadeIn, setFadeIn] = useState(false);
   const [content, setContent] = useState<JSX.Element | null>(null); // Store content to be rendered
+
+  useEffect(() => {
+    handleClick(1);
+  }, []);
 
   const handleClick = (field: number) => {
     if (viewField === field) return; // Prevent re-render if the same item is clicked
@@ -60,17 +73,22 @@ function OurPracticeArea() {
   };
 
   return (
-    <div className="container-fluid mt-4  ">
-     <div>
-     <p style={{fontSize:'20px',opacity:'0.1'}}> <b>More Than 50 Practice Areas in All over INDIA </b> </p>
-     <p style={{fontSize:'40px'}}><b>Our <b style={{color:"#BF976C"}}>Practice</b> Area</b></p>
-     </div>
-      
-     
-      <div className=" ">
+    <div className="container-fluid mt-4   ">
+      <div className="row flex-column flex-lg-row flex-md-column ">
+        <div className="">
+          <p style={{ fontSize: "20px", opacity: "0.5" }}>
+            {" "}
+            <b>More Than 50 Practice Areas in All over INDIA </b>{" "}
+          </p>
+          <p style={{ fontSize: "40px" }}>
+            <b>
+              Our <b style={{ color: "#BF976C" }}>Practice</b> Area
+            </b>
+          </p>
+        </div>
         <div
           style={{ textDecoration: "none" }}
-          className="col  practice-menu-div d-flex flex-wrap align-content-center  justify-content-center     "
+          className="col col-lg-3 d-flex  flex-column   px-0 "
         >
           {[
             { id: 1, label: "CORPORATE LEGAL SERVICES", icon: faBriefcase },
@@ -84,23 +102,30 @@ function OurPracticeArea() {
           ].map((item) => (
             <a
               key={item.id}
-              style={{ textDecoration: "none", borderRadius: "5px"  ,cursor:'pointer'}}
-              className={`px-2  mt-3 practice-menu py-0 mx-2 prac-text ${
-                viewField === item.id ? " custom-color" : "text-dark"
+              style={{
+                textDecoration: "none",
+                borderRadius: "5px",
+                cursor: "pointer",
+              }}
+              className={`px-2 py-3 mt-3  py-0 mx-2 prac-text ${
+                viewField === item.id
+                  ? " custom-color custom-color1"
+                  : "text-dark"
               }`}
               onClick={() => handleClick(item.id)}
             >
-              <FontAwesomeIcon icon={item.icon} style={{ marginRight: "8px" }} />
+              <FontAwesomeIcon
+                icon={item.icon}
+                style={{ marginRight: "8px" }}
+              />
               {item.label}
-            
             </a>
-            
           ))}
         </div>
 
         {/* Content Section */}
-        <div  className="col mt-4 practice-content container p-3">
-          <div style={{boxShadow:'0px 0px 5px 1px'}} className={`show-div fade-in ${fadeIn ? "show" : ""}`}>
+        <div className="col mt-0 mt-lg-3 mt-md-5 d-flex   ">
+          <div className={`show-div fade-in ${fadeIn ? "show" : ""}`}>
             {content}
           </div>
         </div>

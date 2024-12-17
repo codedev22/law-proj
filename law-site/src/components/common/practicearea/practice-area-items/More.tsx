@@ -13,7 +13,7 @@ import {
   faPersonHarassing,
   faUserSecret,
 } from "@fortawesome/free-solid-svg-icons";
-import '../../style/practice-area-styles/PracticeCommon.css'
+import '../../../style/practice-area-styles/PracticeCommon.css'
 function More() {
   const items = [
     { id: 1, label: "Will Drafting", icon: faNoteSticky },
@@ -31,14 +31,14 @@ function More() {
   ];
 
   return (
-    <div className="container-fluid p-2">
-      <div className="row more-row">
+    <div className="container-fluid mt-3 mt-lg-0">
+      <div className="row d-flex flex-column flex-lg-row flex-md-column">
         <div className="col">
-          <ul style={{ listStyle: "none", fontSize: "20px" }}>
+          <ul style={{ listStyle: "none", fontSize: "24px" }}>
             {items
               .filter((item) => item.id <= 6) // Filter for first column (id 1-6)
               .map((item) => (
-                <li key={item.id} className="mb-3 ">
+                <li key={item.id} className="mb-4  ">
                   <FontAwesomeIcon style={{color:'#BF976C'}} className=" more-icon1 me-2  " icon={item.icon} />
                   {item.label}
                 </li>
@@ -46,11 +46,11 @@ function More() {
           </ul>
         </div>
         <div className="col">
-          <ul style={{ listStyle: "none", fontSize: "20px" }}>
+          <ul style={{ listStyle: "none", fontSize: "24px" }}>
             {items
               .filter((item) => item.id > 6) // Filter for second column (id 7-12)
               .map((item) => (
-                <li key={item.id} className="mb-3 ">
+                <li key={item.id} className="mb-4 ">
                   <FontAwesomeIcon style={{color:'#BF976C'}} className="more-icon2 me-2 " icon={item.icon} />
                   {item.label}
                 </li>

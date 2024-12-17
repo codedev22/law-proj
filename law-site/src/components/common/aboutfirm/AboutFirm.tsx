@@ -4,8 +4,8 @@ import {faMagnifyingGlass,faPaperPlane,faBank,faPeopleRoof,faPeopleGroup,faAward
 import "../../style/landingpage-styles/AboutFirm.css";
 function AboutFirm() {
   return (
-    <div style={{paddingInline:'1.8rem'}} className="container mt-4  d-flex flex-wrap ">
-      <div style={{boxShadow:'0px 0px 5px 0px'}} className='row d-flex '>
+    <div className="container-lg-fluid mt-5 aboutfirm-parent ">
+      <div className='row d-flex flex-column flex-lg-row flex-md-row px-2 px-lg-5 py-lg-4 py-3  p-lg-5  '>
 
       <div className="col ">
         <p style={{fontSize:'20px'}}>Start New Case</p>
@@ -13,7 +13,7 @@ function AboutFirm() {
         <div className="case-div ">
           <ul style={{ listStyle: "none" }}>
             <li className="p-2 ">
-            <FontAwesomeIcon className='plane-icon1' style={{height:'60px',opacity:'0.1'}} icon={faPaperPlane}/>
+            <FontAwesomeIcon className='plane-icon1 ' style={{height:'60px',opacity:'0.1'}} icon={faPaperPlane}/>
             <FontAwesomeIcon className='plane-icon2' style={{height:'25px'}} icon={faPaperPlane}/>
                 
               

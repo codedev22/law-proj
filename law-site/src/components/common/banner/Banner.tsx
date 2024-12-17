@@ -1,5 +1,5 @@
-import "../style/common-styles/Common.css";
-import banimg from "../../assets/images/banner.png";
+import "../../style/common-styles/Common.css";
+import banimg from "../../../assets/images/banner.png";
 import { Image } from "react-bootstrap";
 function Banner() {
   return (

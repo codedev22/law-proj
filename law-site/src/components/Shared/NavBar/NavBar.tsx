@@ -3,35 +3,20 @@ import logo from "../../../assets/images/final-logo.png";
 import { PhoneOutlined } from "@ant-design/icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faBars } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 function NavBar() {
+  
   return (
     <div>
       <nav className="navbar py-0 navbar-expand-lg ">
         <div
           style={{ backgroundColor: "#18273E" }}
-          className="container-fluid p-3 d-flex flex-col justify-content-center"
+          className="container-fluid p-3 px-lg-5 d-flex flex-col justify-content-center"
         >
           <div className="row w-100">
-            <div
-              className="col-lg-2 col-md-4 col-6"
-              // style={{
-              //   height: "55px",
-              //   position: "relative",
-              // }}
-            >
-              <img
-                className="img-fluid"
-                // style={{
-                //   height: "265px",
-                //   width: "300px",
-                //   position: "absolute",
-                //   marginTop: "-6.4rem",
-                //   marginLeft: "-2rem",
-                // }}
-                src={logo}
-                alt=""
-              />
+            <div className="col-lg-3 col-xl-2  col-md-4 col-6">
+              <img className="img-fluid" src={logo} alt="" />
             </div>
 
             <div className="d-flex align-items-center align-content-center justify-content-end gap-lg-3 gap-0 col ">
@@ -83,7 +68,7 @@ function NavBar() {
       <nav className="menu-nav navbar py-0  navbar-expand-lg ">
         <div
           style={{ backgroundColor: "#18273E" }}
-          className="container-fluid  "
+          className="container-fluid px-lg-5 "
         >
           <div
             style={{ backgroundColor: "#18273E" }}
@@ -94,25 +79,25 @@ function NavBar() {
           >
             <div className="offcanvas-body">
               <ul className="navbar-nav ">
-                <li className="nav-item ">
-                  <a
+                <li className="nav-item">
+                  <Link
                     style={{ color: "#BF976C" }}
-                    className="nav-link active "
+                    className="nav-link active"
                     aria-current="page"
-                    href="#"
+                    to="/"
                   >
                     Home
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a
+                  <Link
                     style={{ color: "#BF976C" }}
                     className="nav-link active "
                     aria-current="page"
-                    href="#"
+                    to={""}
                   >
                     About us
-                  </a>
+                  </Link>
                 </li>
                 <div className="dropdown">
                   <button
@@ -129,89 +114,89 @@ function NavBar() {
                     className="dropdown-menu practice-list"
                   >
                     <li>
-                      <a
+                      <Link
                         style={{ color: "#BF976C" }}
                         className="dropdown-item"
-                        href="#"
+                        to={""}
                       >
                         Civil & Commercial
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
+                      <Link
                         style={{ color: "#BF976C" }}
                         className="dropdown-item"
-                        href="#"
+                        to={""}
                       >
                         Corporate Lawyers
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
+                      <Link
                         style={{ color: "#BF976C" }}
                         className="dropdown-item"
-                        href="#"
+                        to={""}
                       >
                         Family & Divorce
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
+                      <Link
                         style={{ color: "#BF976C" }}
                         className="dropdown-item"
-                        href="#"
+                        to={""}
                       >
                         Criminal Lawyer
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
+                      <Link
                         style={{ color: "#BF976C" }}
                         className="dropdown-item"
-                        href="#"
+                        to={""}
                       >
                         Mortgage Claim
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
+                      <Link
                         style={{ color: "#BF976C" }}
                         className="dropdown-item"
-                        href="#"
+                        to={""}
                       >
                         Insurance Claim
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
+                      <Link
                         style={{ color: "#BF976C" }}
                         className="dropdown-item"
-                        href="#"
+                        to={""}
                       >
                         Labor & Employment
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
                 <li className="nav-item">
-                  <a
+                  <Link
                     style={{ color: "#BF976C" }}
                     className="nav-link active "
                     aria-current="page"
-                    href="#"
+                    to={""}
                   >
                     Blog
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a
+                  <Link
                     style={{ color: "#BF976C" }}
                     className="nav-link active "
                     aria-current="page"
-                    href="#"
+                    to="/contact"
                   >
                     Contact
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

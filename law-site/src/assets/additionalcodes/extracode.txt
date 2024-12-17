@@ -202,4 +202,35 @@ media screen {
 
 .practice-menu {
   position: relative !important;
+}\
+
+
+
+.practice-menu {
+  position: relative;
+  display: inline-block; /* Adjust as per your layout */
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.practice-menu::before,
+.practice-menu::after {
+  content: '';
+  position: absolute;
+  background-color: black; /* Border color */
+}
+
+.practice-menu::before {
+  bottom:0;
+  left: 0;
+  width: 100%; /* Horizontal part spans the full width */
+  height: 1px; /* Thickness of the border */
+}
+
+.practice-menu::after {
+  bottom: 0;
+  left: 0;
+  width: 1px; /* Thickness of the vertical part */
+  height: 100%; /* Vertical part spans the full height */
 }

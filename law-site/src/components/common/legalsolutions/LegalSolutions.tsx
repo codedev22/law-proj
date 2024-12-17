@@ -1,4 +1,4 @@
-import '../style/common-styles/Common.css'
+import '../../style/common-styles/Common.css'
 function LegalSolutions() {
   return (
     <div className="container-fluid d-flex justify-content-center align-items-center p-0  mt-5 ">

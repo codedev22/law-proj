@@ -195,71 +195,15 @@ text-decoration: none !important;
 
 
 
+/* .special-text{
+  font-size: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  margin: 0;
 
-/* .offcan-button{
-  height: 40px;
-  width: 45px;
-  margin-top: -0.5rem;
-  display: none !important;
-} */
-
-
-/* .consultation-text {
-  display: inline;
 }
-
-.consultation-icon {
-  display: none;
-}
-
-
-.offcan-icon{
-  margin-left: -0.1rem;
-} */
-/* Show the button only on mobile view (max-width: 768px) */
-/* @media screen and (max-width: 991px) {
-
-  .offcan-button{
-    display: inline !important;
-  }
-.callus-div{
-  display: none !important;
-}
-.consultation-text {
-  display: none;
-}
-
-
- .consultation-icon {
-  display: inline !important;
-  margin-bottom: 1.5rem !important;
-  margin-left: -0.3rem;
-}
-.consultation-button{
-  height: 40px;
-  width: 45px;
-  margin-top: -0.5rem;
-  background-color: transparent !important;
-}  */
-
-  
-   
- 
-/* } */
-
-
-@media screen and (max-width: 380px) {
-  /* .num-con-div{
-    display: flex;
-  } */
-  
-  
-/* .consultation-icon {
-  margin-bottom: 0.5rem !important;
-} */
-}
-  
-
-/* .consultation-button {
-outline: white !important;
-} */
+  */

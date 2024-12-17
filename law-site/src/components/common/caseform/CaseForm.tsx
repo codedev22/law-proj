@@ -1,5 +1,5 @@
 import { Formik, Form, Field, ErrorMessage,FormikHelpers } from "formik";
-import "../style/common-styles/Common.css";
+import "../../style/common-styles/Common.css";
 import * as Yup from "yup";
 import emailjs from "emailjs-com";
  import {toast, Toaster } from "react-hot-toast";
@@ -73,7 +73,7 @@ const CaseForm = () => {
   };
 
   return (
-    <div className="container-fluid d-flex justify-content-center mt-5 mb-5 p-0">
+    <div className="container-fluid d-flex justify-content-center mt-5 mt-lg-0 p-0">
       <Toaster position="top-center" reverseOrder={false} />
       <div
         style={{ boxShadow: "0px 0px 10px 0px", backgroundColor: "#18273E", borderRadius: "15px" }}

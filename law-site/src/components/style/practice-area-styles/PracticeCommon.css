@@ -9,44 +9,7 @@
   transform: 0.3s ease;
 }
 
-.prac-text:focus {
-  transform: translateX(20px);
-}
 
-.corporate-img {
-  background-image: url("../../../assets/practice-area-images/corporatelegalservce.jpg");
-  background-size: cover;
-}
-
-.intproperty-img {
-  background-image: url("../../../assets/practice-area-images/intellectual-property.jpeg");
-  background-size: cover;
-}
-
-.family-img {
-  background-image: url("../../../assets/practice-area-images/family-law.jpg");
-  background-size: cover;
-}
-
-.debt-img {
-  background-image: url("../../../assets/practice-area-images/debt-recovery.jpg");
-  background-size: cover;
-}
-
-.criminal-img {
-  background-image: url("../../../assets/practice-area-images/criminallaw.jpg");
-  background-size: cover;
-}
-
-.estate-img {
-  background-image: url("../../../assets/practice-area-images/RealEstate.jpg");
-  background-size: cover;
-}
-
-.labour-img {
-  background-image: url("../../../assets/practice-area-images/Labour-Law.jpg");
-  background-size: cover;
-}
 
 .more-icon1:hover {
   transform: translateY(-5px);
@@ -58,7 +21,7 @@
 }
 
 .more-icon2:hover {
-    transform: translateY(-5px);
+ transform: translateY(-5px); 
   transition: 0.3s ease;
 }
 
@@ -66,101 +29,21 @@
   transition: 0.3s ease;
 }
 
-@media screen and (max-width: 663px) {
-  .more-row {
-    display: flex;
-    flex-direction: column;
-  }
-}
-
-@media screen and (max-width: 345px) {
-  .corporate-img{
-    width: 190px !important;
-  }
-  .intproperty-img{
-    width: 190px !important;
-
-  }
-
-  .criminal-img{
-    width: 190px !important;
-
-  }
-
-  .debt-img{
-    width: 190px !important;
-
-  }
-  .estate-img{
-    width: 190px !important;
-
-  }
-
-  .family-img{
-    width: 190px !important;
-
-  }
-
-  .labour-img{
-    width: 190px !important;
-
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .practice-content{
-    margin-top: 2rem;
-  }
-}
-
-
-
-@media screen and (max-width: 812px) {
-  .practice-menu-div{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-   
-  }
- 
-
- 
-  
-}
 
 
 
 
 
-.practice-menu {
-  position: relative;
-  display: inline-block; /* Adjust as per your layout */
-  padding: 10px;
-  text-decoration: none;
-  color: black;
-}
 
-.practice-menu::before,
-.practice-menu::after {
-  content: '';
-  position: absolute;
-  background-color: black; /* Border color */
-}
-
-.practice-menu::before {
-  bottom:0;
-  left: 0;
-  width: 100%; /* Horizontal part spans the full width */
-  height: 1px; /* Thickness of the border */
-}
-
-.practice-menu::after {
-  bottom: 0;
-  left: 0;
-  width: 1px; /* Thickness of the vertical part */
-  height: 100%; /* Vertical part spans the full height */
-}
 
 .custom-color{
-  color: #BF976C;
+  background-color: #18273E;
+}
+
+.custom-color1{
+  color: white;
+}
+
+.practice-parent{
+  background-color:#faf5ed ;
 }
