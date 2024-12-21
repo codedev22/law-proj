@@ -10,7 +10,7 @@ function AboutFirm() {
       <div className="col ">
         <p style={{fontSize:'20px'}}>Start New Case</p>
         <p style={{fontSize:'35px'}}> <b>How it Works?</b> </p>
-        <div className="case-div ">
+        <div className="case-div  ">
           <ul style={{ listStyle: "none" }}>
             <li className="p-2 ">
             <FontAwesomeIcon className='plane-icon1 ' style={{height:'60px',opacity:'0.1'}} icon={faPaperPlane}/>

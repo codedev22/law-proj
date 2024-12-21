@@ -73,8 +73,8 @@ function OurPracticeArea() {
   };
 
   return (
-    <div className="container-fluid mt-4   ">
-      <div className="row flex-column flex-lg-row flex-md-column ">
+    <div className="container-fluid mt-5 px-0  ">
+      <div className="row  flex-column flex-lg-row flex-md-column ">
         <div className="">
           <p style={{ fontSize: "20px", opacity: "0.5" }}>
             {" "}
@@ -124,7 +124,7 @@ function OurPracticeArea() {
         </div>
 
         {/* Content Section */}
-        <div className="col mt-0 mt-lg-3 mt-md-5 d-flex   ">
+        <div className="col mt-0 mt-lg-3 mt-md-5 d-flex p-lg-0 p-0   ">
           <div className={`show-div fade-in ${fadeIn ? "show" : ""}`}>
             {content}
           </div>

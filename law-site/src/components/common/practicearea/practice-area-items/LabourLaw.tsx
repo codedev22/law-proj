@@ -11,7 +11,7 @@ function LabourLaw() {
       </div>
       <div className="row d-flex flex-column flex-lg-row flex-md-column">
         <div className="col">
-          <p style={{ fontSize: "20px", textAlign: "justify"  }}>
+          <p style={{ fontSize: "17px", textAlign: "justify"  }}>
             Labor law in India and Tamil Nadu can be intricate, requiring both
             strategic advice and precise legal actions. Our firm specializes in
             addressing a wide range of labor-related issues, from employment

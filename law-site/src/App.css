@@ -4,7 +4,23 @@
 
 #root {
   font-family: 'Rubik', sans-serif;
+
+}
+
+.mainbgcolor{
+  background-color: #18273E;
+}
+
+.maincolor{
+  color: #BF976C;
+}
+
+.maincolor1{
+  color: #18273E;
 }
 
 
+.subcolor{
+ background-color: #faf5ed
+}
 

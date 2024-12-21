@@ -5,7 +5,7 @@ function TopLawyers() {
     <div>
       <div className="container-fluid   mt-5 p-0   ">
         <div className="row">
-          <p style={{ fontSize: "40px" }}>
+          <p style={{ fontSize: "35px" }}>
             {" "}
             <b>
               Recognized <b style={{ color: "#BF976C" }}>Advocates</b> and{" "}

@@ -14,10 +14,10 @@ function Footer() {
   return (
     <footer
       style={{ backgroundColor: "#18273E" }}
-      className="footer scroll-overflow mt-5 "
+      className="footer scroll-overflow mt-5 px-lg-0 px-3 "
     >
-      <div className="container-fluid flex-column flex-lg-row flex-md-column footcontainer-1 px-lg-5 ">
-        <div className="row  footrow-1 ">
+      <div className="container-fluid p-2 p-lg-4 ">
+        <div className="row  flex-column flex-lg-row flex-md-column ">
           <div className="col about-column">
             <p style={{ color: "#BF976C" }} className="text-start">
               About Us
@@ -96,6 +96,15 @@ function Footer() {
               >
                 <li>
                   <DoubleRightOutlined className="mx-1" />
+                  IP Attorney in TN & INDIA
+                </li>
+                <li>
+                  <DoubleRightOutlined className="mx-1" />
+                  Criminal Law Advocates in TN & INDIA
+                </li>
+                
+                <li>
+                  <DoubleRightOutlined className="mx-1" />
                   Real Estate & Property Lawyer in TN & INDIA
                 </li>
                 <li>
@@ -114,6 +123,7 @@ function Footer() {
                   <DoubleRightOutlined className="mx-1" />
                   Labor & Employment Lawyer in TN & INDIA
                 </li>
+
               </ul>
             </div>
           </div>
@@ -121,7 +131,7 @@ function Footer() {
         <div className="row">
           <div className="contact col d-flex flex-wrap flex-column ">
             <div className="phone-btn-div ">
-              <div className="d-flex mt-3 phone-btn-adjuster ">
+              <div className="d-flex mt-3 mt-lg-0 phone-btn-adjuster ">
                 <button
                   style={{
                     borderRadius: "24px",
@@ -168,7 +178,7 @@ function Footer() {
               </div>
             </div>
           </div>
-          <div className="col-lg-4 mt-0 mt-lg-0 mt-md-5 imp-column">
+          <div className="col-lg-4 mt-5 mt-lg-0 mt-md-5 imp-column ">
             <p className="text-start" style={{ color: "#BF976C" }}>
               Important Links
             </p>
@@ -186,7 +196,7 @@ function Footer() {
             </ul>
           </div>
         </div>
-        <div className="row footrow1   ">
+        <div className="row mt-4">
           <div className="col social-column  mt-0 mt-lg-0 mt-md-5  ">
             <div className="socialmedia  text-start">
               <p style={{ color: "#BF976C" }}>Follow Us On Social Media</p>

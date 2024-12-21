@@ -11,7 +11,7 @@ function CriminalLaw() {
       </div>
       <div className="row d-flex flex-column flex-lg-row flex-md-column">
         <div className="col">
-          <p style={{ fontSize: "20px", textAlign: "justify"  }}>
+          <p style={{ fontSize: "17px", textAlign: "justify"  }}>
             Criminal law cases require expert handling, and we provide
             comprehensive legal services throughout every stage of the process.
             In India and Tamil Nadu, our team is equipped to assist with

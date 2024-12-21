@@ -12,7 +12,7 @@ function CorporateLegalServices() {
       <div className="row d-flex flex-column flex-lg-row flex-md-column ">
          
           <div className="col">
-            <p style={{ fontSize: "20px", textAlign: "justify" }}>
+            <p style={{ fontSize: "17px", textAlign: "justify" }}>
               We offer comprehensive solutions to businesses of all sizes in
               India. From company formation to mergers, acquisitions, and
               compliance, we provide expert legal guidance to help your business

@@ -1,9 +1,9 @@
 import "../../style/common-styles/Testimonials.css";
 function Testimonials() {
   return (
-    <div className="container-fluid   mt-5">
-      <div className="row  d-flex flex-column  flex-lg-row flex-md-column">
-        <div className="col client-parent py-3 ">
+    <div  className="container-fluid   mt-5">
+      <div  className="row  d-flex flex-column  flex-lg-row flex-md-column">
+        <div style={{borderRadius:'15px'}} className="col client-parent py-3 ">
           <p className="opacity-50 fs-5 text-start text-lg-center">Our Clients</p>
           <p className="fs-2 text-start text-lg-center">
             <b style={{ color: "#BF976C" }}>Testimonials</b>
@@ -20,7 +20,7 @@ function Testimonials() {
         </div>
       </div>
       <div className="row p-0 p-lg-5 d-flex flex-column  flex-lg-row flex-md-column mt-3 gap-3 ">
-        <div  className="col py-5 client-parent ">
+        <div style={{borderRadius:'15px'}} className="col py-5 client-parent ">
           <p style={{textAlign:'justify'}}>
             "I would like to express my heartfelt gratitude to Mr. Vignesh Anand
             and his dedicated team, including Ms. Nithya Sowmya, Ms.
@@ -38,7 +38,7 @@ function Testimonials() {
           </p>
           <p>Businessman</p>
         </div>
-        <div  className="col py-5  client-parent">
+        <div style={{borderRadius:'15px'}} className="col py-5  client-parent">
           <p style={{textAlign:'justify'}}>
             "I wish to extend my deepest gratitude to Highbrows Legal Advocates
             & Legal Consultants for their outstanding service and unwavering

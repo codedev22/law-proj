@@ -32,9 +32,9 @@ function More() {
 
   return (
     <div className="container-fluid mt-3 mt-lg-0">
-      <div className="row d-flex flex-column flex-lg-row flex-md-column">
+      <div className="row d-flex  flex-column flex-lg-row flex-md-column">
         <div className="col">
-          <ul style={{ listStyle: "none", fontSize: "24px" }}>
+          <ul style={{ listStyle: "none", fontSize: "20px" }}>
             {items
               .filter((item) => item.id <= 6) // Filter for first column (id 1-6)
               .map((item) => (
@@ -46,7 +46,7 @@ function More() {
           </ul>
         </div>
         <div className="col">
-          <ul style={{ listStyle: "none", fontSize: "24px" }}>
+          <ul style={{ listStyle: "none", fontSize: "20px" }}>
             {items
               .filter((item) => item.id > 6) // Filter for second column (id 7-12)
               .map((item) => (

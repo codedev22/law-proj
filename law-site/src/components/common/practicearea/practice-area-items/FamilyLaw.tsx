@@ -11,7 +11,7 @@ function FamilyLaw() {
       </div>
       <div className="row d-flex flex-column flex-lg-row flex-md-column">
         <div className="col">
-          <p style={{ fontSize: "20px", textAlign: "justify"  }}>
+          <p style={{ fontSize: "17px", textAlign: "justify"  }}>
             At our firm, we understand that family matters require a delicate
             approach. Our family law services in India and Tamil Nadu focus on
             resolving disputes with empathy and expertise. We assist with

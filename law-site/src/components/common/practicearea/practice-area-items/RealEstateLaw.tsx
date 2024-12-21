@@ -11,7 +11,7 @@ function RealEstateLaw() {
       </div>
       <div className="row d-flex flex-column flex-lg-row flex-md-column">
         <div className="col">
-          <p style={{ fontSize: "20px", textAlign: "justify"  }}>
+          <p style={{ fontSize: "17px", textAlign: "justify"  }}>
             Real estate transactions in India and Tamil Nadu can be complex,
             involving numerous legal considerations. Our firm offers expert
             services in property matters, including drafting and reviewing

@@ -8,4 +8,18 @@
 
 .contact-icon-bgcolor{
     background-color: #18273E;
+    transition: 0.3s ease-in-out;
+
 }
+
+.contact-icon-bgcolor:hover{
+    background-color: #BF976C;
+    color:  #18273E;
+    transition: 0.3s ease-in-out;
+    transform: translateY(-5px);
+}
+
+.support-icon :hover {
+    transition: transform 0.3s ease-in-out; /* Smooth hover animation */
+  }
+  

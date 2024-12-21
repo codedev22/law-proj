@@ -11,7 +11,7 @@ function IntellectualPropertyLaw() {
       </div>
       <div className="row d-flex flex-column flex-lg-row flex-md-column">
         <div className="col">
-          <p style={{ fontSize: "20px", textAlign: "justify"  }}>
+          <p style={{ fontSize: "17px", textAlign: "justify"  }}>
             Intellectual Property Law is essential in protecting your
             innovations, creations, and brand. Our firm specializes in securing
             patents, trademarks, copyrights, and designs in India and Tamil

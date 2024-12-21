@@ -12,7 +12,7 @@ function DebtRecoveryLaw() {
 
       <div className="row d-flex flex-column flex-lg-row flex-md-column">
         <div className="col">
-          <p style={{ fontSize: "20px", textAlign: "justify"  }}>
+          <p style={{ fontSize: "17px", textAlign: "justify"  }}>
             We specialize in delivering reliable legal solutions for all your
             real estate needs. From title verification and property registration
             to dispute resolution and compliance, our services cover every
