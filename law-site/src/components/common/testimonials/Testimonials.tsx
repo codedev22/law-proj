@@ -1,8 +1,8 @@
 import "../../style/common-styles/Testimonials.css";
 function Testimonials() {
   return (
-    <div  className="container-fluid   mt-5">
-      <div  className="row  d-flex flex-column  flex-lg-row flex-md-column">
+    <div  className="container-fluid px-lg-0  mt-5">
+      <div  className="row px-lg-0 px-3  d-flex flex-column  flex-lg-row flex-md-column">
         <div style={{borderRadius:'15px'}} className="col client-parent py-3 ">
           <p className="opacity-50 fs-5 text-start text-lg-center">Our Clients</p>
           <p className="fs-2 text-start text-lg-center">
@@ -19,7 +19,7 @@ function Testimonials() {
           </p>
         </div>
       </div>
-      <div className="row p-0 p-lg-5 d-flex flex-column  flex-lg-row flex-md-column mt-3 gap-3 ">
+      <div className="row py-lg-3 px-lg-0 px-3  d-flex flex-column  flex-lg-row flex-md-column mt-3 gap-3 ">
         <div style={{borderRadius:'15px'}} className="col py-5 client-parent ">
           <p style={{textAlign:'justify'}}>
             "I would like to express my heartfelt gratitude to Mr. Vignesh Anand

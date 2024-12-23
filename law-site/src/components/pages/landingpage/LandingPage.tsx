@@ -1,5 +1,4 @@
 import "../../../components/style/landingpage-styles/LandingPage.css";
-import Floatbtn from "../../common/Floatbtn";
 import Footer from "../../Shared/Footer/Footer";
 import TopLawyers from "../../common/toplawyers/TopLawyers";
 import Specialization from "../../common/specialization/Specialization";
@@ -16,8 +15,7 @@ function LandingPage() {
     <div>
       <NavBar />
       <Banner/> 
-      <div className=" main-body-div px-lg-5">
-        <div className="px-lg-5 px-3 ">
+      <div className=" main-body-div container-lg container-fluid px-lg-0 ">
         <Specialization />
         <TopLawyers />
         <LegalSolutions />
@@ -25,12 +23,10 @@ function LandingPage() {
         <AboutFirm/>
         <Testimonials/>
         <CaseForm />
-        </div>
       </div>
       {/* Footer */}
       <Footer />
       {/* Footer */}
-      <Floatbtn />
     </div>
   );
 }

@@ -3,8 +3,8 @@ import { DoubleRightOutlined } from "@ant-design/icons";
 function TopLawyers() {
   return (
     <div>
-      <div className="container-fluid   mt-5 p-0   ">
-        <div className="row">
+      <div className="container-fluid  p-0   ">
+        <div className="row px-lg-1 px-3 mt-5 ">
           <p style={{ fontSize: "35px" }}>
             {" "}
             <b>
@@ -25,8 +25,8 @@ function TopLawyers() {
             our mission.
           </p>
         </div>
-        <div className="row d-flex flex-column flex-lg-row flex-md-column">
-          <div className="col">
+        <div className="row px-lg-1 px-3 d-flex flex-column justify-content-lg-center flex-lg-row flex-md-column ">
+          <div className="col col-lg-4 ">
             <ul
               style={{ fontSize: "20px" }}
               className=" text-start list-unstyled   "
@@ -54,7 +54,7 @@ function TopLawyers() {
               </li>
             </ul>
           </div>
-          <div className="col">
+          <div className="col col-lg-4">
             <ul
               style={{ fontSize: "20px" }}
               className=" text-start list-unstyled   "

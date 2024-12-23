@@ -1,18 +1,21 @@
 import Footer from "../../../Shared/Footer/Footer";
 import NavBar from "../../../Shared/NavBar/NavBar";
 import CorporateContent from "./CorporateContent";
-
+import corpbanner from '../../../../assets/mainpracticearea/banner/corpbanner.png'
 const CorporateLegalServices = () => {
   return (
     <div>
-       <NavBar/>     
-    <div className="container-lg container-fluid p-lg-5 px-3">
+       <NavBar/>
+       <div className="">
+        <img className="img-fluid" src={corpbanner} alt="" />
+        </div>     
+    <div className="container-lg container-fluid  py-lg-5 py-4  ">
         
-      <div className="row">
+      <div className="row px-lg-0 px-3">
         <p className="px-3" style={{ fontSize: "35px"  }}>
           {" "}
-          Corporate Legal Services: Navigating Business Legalities with
-          Precision
+         <b>Corporate Legal Services: Navigating Business Legalities with
+         Precision</b> 
         </p>
         <div className="col px-3 ">
           <p style={{fontSize:"19px",textAlign:'justify'}} >

@@ -1,16 +1,20 @@
 import Footer from "../../../Shared/Footer/Footer";
 import NavBar from "../../../Shared/NavBar/NavBar";
 import CivilAndCommercialContent from "./CivilAndCommercialContent";
+import civilcombanner from '../../../../assets/mainpracticearea/banner/civilcombanner.png'
 const CivilAndCommerical = () => {
   return (
     <div>
         <NavBar/>
-    <div className="container-lg container-fluid p-lg-5 p-3">
-      <div className="row">
-        <p className="px-3" style={{ fontSize: "35px" }}>
+        <div>
+          <img src={civilcombanner} className="img-fluid" alt="" />
+        </div>
+    <div className="container-lg container-fluid  py-lg-5 py-4">
+      <div className="row px-3">
+        <p className="" style={{ fontSize: "35px" }}>
           {" "}
-          Civil and Commercial Law: Comprehensive Legal Solutions for
-          Individuals and Businesses
+         <b> Civil and Commercial Law: Comprehensive Legal Solutions for
+         Individuals and Businesses</b>
         </p>
         <div className="col px-3">
           <p style={{fontSize:"19px",textAlign:'justify'}}>

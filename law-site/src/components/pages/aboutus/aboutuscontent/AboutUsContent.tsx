@@ -4,18 +4,18 @@ const AboutUsContent = () => {
     <div>
       <div
           style={{ borderRadius: "15px" }}
-          className="row  p-lg-3 text-lg-center d-flex flex-column flex-lg-row "
+          className="row p-lg-3  px-3 text-lg-center d-flex flex-column align-items-center flex-lg-row "
         >
           <div className="col">
             <p
-              style={{ fontSize: "40px" }}
-              className="mt-lg-5 mx-1 sub maincolor mt-3"
+              style={{ fontSize: "35px" }}
+              className="  sub maincolor "
             >
               <b>About Us</b>
             </p>
           </div>
 
-          <div className="col p-lg-3 px-lg-0  px-3">
+          <div className="col">
             <p className="" style={{ textAlign: "justify", fontSize: "19px" }}>
               At Highbrows Legal, we don't merely provide legal services—we set
               new standards of excellence. Our mission is to empower clients
@@ -28,9 +28,9 @@ const AboutUsContent = () => {
         </div>
         <div
           style={{ borderRadius: "15px" }}
-          className="row subcolor p-lg-3 text-lg-center mt-3  d-flex flex-column-reverse flex-lg-row"
+          className="row subcolor p-lg-3 px-3 text-lg-center mt-3  d-flex align-items-center flex-column-reverse  flex-lg-row"
         >
-          <div className="col p-lg-3 px-lg-0 px-3 p-3">
+          <div className="col ">
             <p className="" style={{ textAlign: "justify", fontSize: "19px" }}>
               Highbrows Legal is a premier law firm renowned for its diverse
               legal expertise and clientcentric approach. Our team of
@@ -42,7 +42,7 @@ const AboutUsContent = () => {
             </p>
           </div>
           <div className="col">
-            <p style={{ fontSize: "40px" }} className="mt-lg-5 maincolor  mt-3 ">
+            <p style={{ fontSize: "35px" }} className=" maincolor   ">
               <b>Who We Are</b>
             </p>
           </div>
@@ -50,14 +50,14 @@ const AboutUsContent = () => {
 
         <div
           style={{ borderRadius: "15px" }}
-          className="row  d-flex flex-column flex-lg-row   p-lg-3 text-lg-center mt-3 "
+          className="row  d-flex flex-column flex-lg-row px-3 align-items-center  p-lg-3 text-lg-center mt-3 "
         >
           <div className="col">
-            <p style={{ fontSize: "40px" }} className="mt-lg-5 maincolor  mt-3">
+            <p style={{ fontSize: "35px" }} className=" maincolor  ">
               <b>Our Team: The Minds Behind the Mission</b>
             </p>
           </div>
-          <div className="col p-lg-3 px-lg-0 px-3 p-3">
+          <div className="col p-lg-3 px-lg-0  p-3">
             <p className="" style={{ textAlign: "justify", fontSize: "19px" }}>
               At the heart of HighBrows Legal lies an exceptional team of legal
               professionals who embody brilliance, integrity, and collaboration.
@@ -72,7 +72,7 @@ const AboutUsContent = () => {
 
         <div
           style={{ borderRadius: "15px" }}
-          className="row subcolor  d-flex flex-column-reverse flex-lg-row p-lg-3 text-lg-center mt-3 "
+          className="row subcolor px-3 d-flex flex-column-reverse align-items-center flex-lg-row p-lg-3 text-lg-center mt-3 "
         >
           <div className="col p-lg-3 px-lg-0 px-3 p-3">
             <p style={{ textAlign: "justify", fontSize: "19px" }}>
@@ -83,19 +83,19 @@ const AboutUsContent = () => {
             </p>
           </div>
           <div className="col">
-            <p style={{ fontSize: "40px" }} className="mt-lg-5 maincolor mt-3">
+            <p style={{ fontSize: "35px" }} className="maincolor ">
               <b>Our Vision</b>
             </p>
           </div>
         </div>
         <div
           style={{ borderRadius: "15px" }}
-          className="row  d-flex flex-column flex-lg-row  p-lg-3   mt-3"
+          className="row px-3 d-flex flex-column align-items-center flex-lg-row  p-lg-3   mt-3"
         >
           <div className="col">
             <p
               style={{ fontSize: "40px" }}
-              className="mt-lg-5 text-lg-center maincolor mt-3"
+              className="text-lg-center maincolor "
             >
               <b>Our Mission</b>
             </p>

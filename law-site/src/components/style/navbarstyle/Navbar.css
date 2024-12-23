@@ -1,0 +1,9 @@
+.offcan-button:focus,
+.offcan-button:active {
+    background-color: #BF976C !important;
+}
+
+.consultation-button:focus,
+.consultation-button:active {
+    background-color: #BF976C !important;
+}

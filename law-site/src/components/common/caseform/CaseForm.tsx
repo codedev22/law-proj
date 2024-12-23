@@ -73,7 +73,7 @@ const CaseForm = () => {
   };
 
   return (
-    <div className="container-fluid d-flex justify-content-center mt-5 mt-lg-0 p-0">
+    <div className="container-fluid px-lg-0 px-3 d-flex justify-content-center mt-5 mt-lg-2 p-0">
       <Toaster position="top-center" reverseOrder={false} />
       <div
         style={{ boxShadow: "0px 0px 10px 0px", backgroundColor: "#18273E", borderRadius: "15px" }}

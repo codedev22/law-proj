@@ -9,10 +9,11 @@ const CorporateContent = () => {
   return (
     <div>
       <div
-        className="row py-lg-0 py-4   p-lg-3 text-lg-center d-flex flex-column flex-lg-row "
+      style={{borderRadius:'15px'}}
+        className="row px-lg-2 px-3 py-lg-0 py-4   p-lg-3 text-lg-center d-flex flex-column flex-lg-row "
       >
         
-        <div className="col col-lg-4 mt-lg-4 px-3">
+        <div className="col d-lg-flex align-items-center col-lg-6 col-xl-4 p-3 ">
           <img style={{borderRadius:'15px'}} className="img-fluid" src={businessimg} alt="" />
         </div>
 
@@ -33,7 +34,7 @@ const CorporateContent = () => {
       </div>
       <div
         style={{ borderRadius: "15px" }}
-        className="row py-lg-0 py-4 subcolor p-lg-3 text-lg-center mt-3  d-flex flex-column-reverse flex-lg-row"
+        className="row px-lg-3 subcolor px-3 py-lg-0 py-4 p-lg-3 text-lg-center mt-3  d-flex flex-column-reverse flex-lg-row"
       >
         <div className="col p-lg-3 px-lg-0 px-3 p-3 ">
           <p style={{ fontSize: "25px" }} className="text-start maincolor">
@@ -48,15 +49,15 @@ const CorporateContent = () => {
             sound and aligned with your strategic goals.
           </p>
         </div>
-        <div className="col col-lg-4 mt-lg-4 px-3  ">
+        <div className="col d-lg-flex align-items-center col-lg-6 col-xl-4 p-3  ">
           <img style={{borderRadius:'15px'}} className="img-fluid" src={mergeimg} alt="" />
         </div>
       </div>
 
       <div
-        className="row py-lg-0 py-4  d-flex flex-column flex-lg-row   p-lg-3 text-lg-center mt-3 "
+        className="row  px-lg-3 px-3 py-lg-0 py-4  d-flex flex-column flex-lg-row   p-lg-3 text-lg-center mt-3 "
       >
-        <div className="col col-lg-4 mt-lg-4 px-3 ">
+        <div className="col d-lg-flex align-items-center col-lg-6 col-xl-4 p-3 ">
           <img style={{borderRadius:'15px'}} className="img-fluid" src={corpgovimg} alt="" />
         </div>
         <div className="col p-lg-3 px-lg-0 px-3 p-3">
@@ -73,7 +74,7 @@ const CorporateContent = () => {
 
       <div
         style={{ borderRadius: "15px" }}
-        className="row py-lg-0 py-4  subcolor  d-flex flex-column-reverse flex-lg-row p-lg-3 text-lg-center mt-3 "
+        className="row px-lg-3 px-3 py-lg-0 py-4  subcolor  d-flex flex-column-reverse flex-lg-row p-lg-3 text-lg-center mt-3 "
       >
         <div className="col p-lg-3 px-lg-0 px-3 p-3">
           <p style={{ fontSize: "25px" }} className="text-start maincolor">
@@ -88,14 +89,14 @@ const CorporateContent = () => {
             legal issues upfront.
           </p>
         </div>
-        <div className="col col-lg-4 mt-lg-4 px-3 ">
+        <div className="col d-lg-flex align-items-center col-lg-6 col-xl-4 p-3 ">
           <img style={{borderRadius:'15px'}} className="img-fluid" src={draftimg} alt="" />
         </div>
       </div>
       <div
-        className="row py-lg-0 py-4   d-flex flex-column flex-lg-row  p-lg-3   mt-3"
+        className="row px-lg-3 px-3 py-lg-0 py-4   d-flex flex-column flex-lg-row  p-lg-3   mt-3"
       >
-        <div className="col col-lg-4 mt-lg-4 px-3 ">
+        <div className="col d-lg-flex align-items-center col-lg-6 col-xl-4 p-3 ">
           <img style={{borderRadius:'15px'}} className="img-fluid" src={emplawimg} alt="" />
         </div>
         <div className="col p-lg-3 px-lg-0 px-3 p-3">
@@ -112,7 +113,7 @@ const CorporateContent = () => {
       </div>
       <div
         style={{ borderRadius: "15px" }}
-        className="row py-lg-0 py-4  d-flex flex-column-reverse subcolor flex-lg-row   p-lg-3   mt-3"
+        className="row px-lg-3 px-3 py-lg-0 py-4  d-flex flex-column-reverse subcolor flex-lg-row   p-lg-3   mt-3"
       >
         <div className="col p-lg-3 px-lg-0 px-3 p-3">
           <p style={{ fontSize: "25px" }} className="text-start maincolor"><b>Banking and Finance</b></p>
@@ -124,14 +125,14 @@ const CorporateContent = () => {
             financial challenges.
           </p>
         </div>
-        <div className="col col-lg-4 mt-lg-4 px-3 ">
+        <div className="col d-lg-flex align-items-center col-lg-6 col-xl-4 p-3 ">
           <img style={{borderRadius:'15px'}} className="img-fluid" src={bankimg} alt="" />
         </div>
       </div>
       <div
-        className="row py-lg-0 py-4  d-flex flex-column flex-lg-row  p-lg-3   mt-3"
+        className="row px-lg-3 px-3 py-lg-0 py-4  d-flex flex-column flex-lg-row  p-lg-3   mt-3"
       >
-        <div className="col col-lg-4 mt-lg-4 px-3 ">
+        <div className="col d-lg-flex align-items-center col-lg-6 col-xl-4 p-3 ">
           <img style={{borderRadius:'15px'}} className="img-fluid" src={disputeimg} alt="" />
         </div>
         <div className="col p-lg-3 px-lg-0 px-3 p-3">
@@ -146,7 +147,7 @@ const CorporateContent = () => {
           </p>
         </div>
       </div>
-      <div style={{borderRadius:'15px'}} className="row mt-2 mt-lg-5 subcolor py-lg-3 py-4 ">
+      <div style={{borderRadius:'15px'}} className="row px-lg-0 px-3 mt-2 mt-lg-5 subcolor py-lg-3 py-4 ">
         <p className="maincolor" style={{fontSize:"25px"}}><b>Our Moto</b></p>
         <div className="col px-3">
           <p style={{textAlign:'justify'}}>

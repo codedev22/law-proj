@@ -1,16 +1,21 @@
 import Footer from "../../../Shared/Footer/Footer";
 import NavBar from "../../../Shared/NavBar/NavBar";
 import IPRContent from "./IPRContent";
+import iprbanner from '../../../../assets/mainpracticearea/banner/irpbanner.png'
+
 const IPR = () => {
   return (
     <div>
       <NavBar />
-      <div className=" container-lg container-fluid p-lg-5 p-3">
-        <div className="row">
+      <div>
+        <img src={iprbanner} className="img-fluid" alt="" />
+      </div>
+      <div className=" container-lg container-fluid py-lg-5 py-4">
+        <div className="row px-lg-0 px-3">
           <p className="px-3" style={{ fontSize: "35px" }}>
             {" "}
-            Intellectual Property Rights (IPR): Empowering Innovation and
-            Protecting Creativity
+           <b>Intellectual Property Rights (IPR): Empowering Innovation and
+           Protecting Creativity</b> 
           </p>
           <div className="col px-3">
             <p style={{fontSize:"19px",textAlign:'justify'}}>

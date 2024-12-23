@@ -9,7 +9,7 @@ const AboutUs = () => {
     <div>
       <NavBar />
         <Banner />
-      <div className="container p-lg-5 px-lg-5 px-3 mt-3">
+      <div className="container  p-lg-5 px-lg-5 mt-3">
         <AboutUsContent/>
         <hr className="mt-5" />
         <div>
@@ -20,12 +20,12 @@ const AboutUs = () => {
         <WhyHighbrows />
         <hr className="mt-5 p-0" />
 
-        <div style={{borderRadius:'15px'}} className="row mt-5 subcolor p-lg-2  ">
+        <div style={{borderRadius:'15px'}} className="row px-lg-0 px-3 mt-5 subcolor p-lg-2  ">
           <p style={{ fontSize: "30px" }} className="mt-lg-3 maincolor  mt-3">
             <b>Our Commitment to You</b>
           </p>
         </div>
-        <div className="row">
+        <div className="row px-lg-0 px-3">
           <div className="col p-lg-3 px-lg-0 px-3 p-3 ">
             <p  style={{ textAlign: "justify", fontSize: "19px" }}>
               At Highbrows Legal, justice is not a service—it is our calling. We

@@ -8,7 +8,12 @@ import CorporateLegalServices from './components/pages/practiceareas/corporatele
 import IPR from './components/pages/practiceareas/intellectualpropertyrights/IPR';
 import FamilyAndMat from './components/pages/practiceareas/familyandmatrimoniallaw/FamilyAndMat';
 import CivilAndCommerical from './components/pages/practiceareas/civilandcommerciallaw/CivilAndCommerical';
-
+import LabourAndEmployment from './components/pages/practiceareas/labourandemp/LabourAndEmployment';
+import CriminalLaw from './components/pages/practiceareas/criminallaw/CriminalLaw';
+import MortgageClaims from './components/pages/practiceareas/mortgage/MortgageClaims';
+import DebtRecovery from './components/pages/practiceareas/debtrecovery/DebtRecovery';
+import RealEstate from './components/pages/practiceareas/realestate/RealEstate';
+import InsuranceClaim from './components/pages/practiceareas/insurance/InsuranceClaim';
 function App() {
 
   return (
@@ -24,6 +29,12 @@ function App() {
             <Route path="/intellectual-property-rights" element={<IPR/>}></Route>
             <Route path="/family-matrimonial" element={<FamilyAndMat/>}></Route>
             <Route path="/civil-commercial" element={<CivilAndCommerical/>}></Route>
+            <Route path="/labour-employment" element={<LabourAndEmployment/>}></Route>
+            <Route path="/criminal-law" element={<CriminalLaw/>}></Route>
+            <Route path="/mortgage-claims" element={<MortgageClaims/>}></Route>
+            <Route path="/debt-recovery" element={<DebtRecovery/>}></Route>
+            <Route path="/real-estate" element={<RealEstate/>}></Route>
+            <Route path="/insurance-claims" element={<InsuranceClaim/>}></Route>
           </Routes>
         </Router>
       </div>

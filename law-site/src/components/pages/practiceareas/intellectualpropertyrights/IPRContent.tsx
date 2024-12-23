@@ -9,8 +9,8 @@ import auditimg from "../../../../assets/mainpracticearea/iprimages/IPAuditsandS
 const IPRContent = () => {
   return (
     <div>
-      <div className="row py-lg-0 py-4  p-lg-3 text-lg-center d-flex flex-column flex-lg-row ">
-        <div className="col col-lg-4 mt-lg-4 px-3">
+      <div className="row px-lg-2 px-3 py-lg-0 py-4  p-lg-3 text-lg-center d-flex flex-column flex-lg-row ">
+        <div className="col d-lg-flex align-items-center col-lg-6 col-xl-4 p-3">
           <img
             style={{ borderRadius: "15px" }}
             className="img-fluid"
@@ -36,7 +36,7 @@ const IPRContent = () => {
       </div>
       <div
         style={{ borderRadius: "15px" }}
-        className="row  py-lg-0 py-4  subcolor p-lg-3 text-lg-center mt-3  d-flex flex-column-reverse flex-lg-row"
+        className="row px-lg-3 px-3 py-lg-0 py-4  subcolor p-lg-3 text-lg-center mt-3  d-flex flex-column-reverse flex-lg-row"
       >
         <div className="col p-lg-3 px-lg-0 px-3 p-3">
           <p style={{ fontSize: "25px" }} className="text-start maincolor">
@@ -52,7 +52,7 @@ const IPRContent = () => {
             in the marketplace.
           </p>
         </div>
-        <div className="col col-lg-4 mt-lg-4 px-3">
+        <div className="col d-lg-flex align-items-center col-lg-6 col-xl-4 p-3">
           <img
             style={{ borderRadius: "15px" }}
             className="img-fluid"
@@ -62,8 +62,8 @@ const IPRContent = () => {
         </div>
       </div>
 
-      <div className="row py-lg-0 py-4  d-flex flex-column flex-lg-row   p-lg-3 text-lg-center mt-3 ">
-        <div className="col col-lg-4 mt-lg-4 px-3">
+      <div className="row px-lg-3 px-3 py-lg-0 py-4  d-flex flex-column flex-lg-row   p-lg-3 text-lg-center mt-3 ">
+        <div className="col d-lg-flex align-items-center col-lg-6 col-xl-4 p-3">
           <img
             style={{ borderRadius: "15px" }}
             className="img-fluid"
@@ -89,7 +89,7 @@ const IPRContent = () => {
 
       <div
         style={{ borderRadius: "15px" }}
-        className="row py-lg-0 py-4  subcolor  d-flex flex-column-reverse flex-lg-row p-lg-3 text-lg-center mt-3 "
+        className="row px-lg-3 px-3 py-lg-0 py-4  subcolor  d-flex flex-column-reverse flex-lg-row p-lg-3 text-lg-center mt-3 "
       >
         <div className="col p-lg-3 px-lg-0 px-3 p-3">
           <p style={{ fontSize: "25px" }} className="text-start maincolor">
@@ -105,7 +105,7 @@ const IPRContent = () => {
             unauthorized use.
           </p>
         </div>
-        <div className="col col-lg-4 mt-lg-4 px-3">
+        <div className="col d-lg-flex align-items-center col-lg-6 col-xl-4 p-3">
           <img
             style={{ borderRadius: "15px" }}
             className="img-fluid"
@@ -114,8 +114,8 @@ const IPRContent = () => {
           />
         </div>
       </div>
-      <div className="row py-lg-0 py-4  d-flex flex-column flex-lg-row  p-lg-3   mt-3">
-        <div className="col col-lg-4 mt-lg-4 px-3">
+      <div className="row px-lg-3 px-3 py-lg-0 py-4  d-flex flex-column flex-lg-row  p-lg-3   mt-3">
+        <div className="col d-lg-flex align-items-center col-lg-6 col-xl-4 p-3">
           <img
             style={{ borderRadius: "15px" }}
             className="img-fluid"
@@ -140,7 +140,7 @@ const IPRContent = () => {
       </div>
       <div
         style={{ borderRadius: "15px" }}
-        className="row py-lg-0 py-4  d-flex flex-column-reverse subcolor flex-lg-row  p-lg-3   mt-3"
+        className="row px-lg-3 px-3 py-lg-0 py-4  d-flex flex-column-reverse subcolor flex-lg-row  p-lg-3   mt-3"
       >
         <div className="col p-lg-3 px-lg-0 px-3 p-3">
           <p style={{ fontSize: "25px" }} className="text-start maincolor">
@@ -156,7 +156,7 @@ const IPRContent = () => {
             possible way for financial benefit.
           </p>
         </div>
-        <div className="col col-lg-4 mt-lg-4 px-3">
+        <div className="col d-lg-flex align-items-center col-lg-6 col-xl-4 p-3">
           <img
             style={{ borderRadius: "15px" }}
             className="img-fluid"
@@ -165,8 +165,8 @@ const IPRContent = () => {
           />
         </div>
       </div>
-      <div className="row py-lg-0 py-4  d-flex flex-column flex-lg-row  p-lg-3   mt-3">
-        <div className="col col-lg-4 mt-lg-4 px-3">
+      <div className="row px-lg-3 px-3 py-lg-0 py-4  d-flex flex-column flex-lg-row  p-lg-3   mt-3">
+        <div className="col d-lg-flex align-items-center col-lg-6 col-xl-4 p-3">
           <img
             style={{ borderRadius: "15px" }}
             className="img-fluid"
@@ -191,7 +191,7 @@ const IPRContent = () => {
       </div>
       <div
         style={{ borderRadius: "15px" }}
-        className="row mt-2 mt-lg-5 py-lg-3 py-4   subcolor"
+        className="row px-lg-0 px-3 mt-2 mt-lg-5 py-lg-3 py-4   subcolor"
       >
         <p className="maincolor " style={{ fontSize: "25px" }}>
           <b>Our Moto</b>

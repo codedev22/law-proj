@@ -5,15 +5,14 @@ import commercialimg from '../../../../assets/mainpracticearea/civilandcommercia
 import transactionsimg from '../../../../assets/mainpracticearea/civilandcommercialimages/CommercialTransactionsandBusinessDisputes.jpeg'
 import regulatoryimg from '../../../../assets/mainpracticearea/civilandcommercialimages/CorporateGovernanceandRegulatoryCompliance.jpeg'
 import tortimg from '../../../../assets/mainpracticearea/civilandcommercialimages/tortclaims.jpeg'
-
 const CivilAndCommercialContent = () => {
   return (
     <div>
       <div
         style={{ borderRadius: "15px" }}
-        className="row py-lg-0 py-4  p-lg-3 text-lg-center d-flex flex-column flex-lg-row "
+        className="row px-lg-3 px-3 py-lg-0 py-4  p-lg-3 text-lg-center d-flex flex-column flex-lg-row "
       >
-        <div className="col col-lg-4 mt-lg-4 px-3">
+        <div className="col d-lg-flex align-items-center col-lg-6 col-xl-4 p-3 ">
           <img
             style={{ borderRadius: "15px" }}
             className="img-fluid"
@@ -22,7 +21,7 @@ const CivilAndCommercialContent = () => {
           />
         </div>
 
-        <div className="col p-lg-3 px-lg-0 px-3 p-3">
+        <div className="col p-lg-3 px-lg-0 px-lg-0 px-3 p-3">
           <p style={{fontSize:"25px"}} className="text-start maincolor"><b>Banking and Financial Disputes</b></p>
           <p className="" style={{ textAlign: "justify", fontSize: "19px" }}>
             Financial disputes can significantly impact both individuals and
@@ -36,7 +35,7 @@ const CivilAndCommercialContent = () => {
       </div>
       <div
         style={{ borderRadius: "15px" }}
-        className="row py-lg-0 py-4  subcolor p-lg-3 text-lg-center mt-3  d-flex flex-column-reverse flex-lg-row"
+        className="row px-3 py-lg-0 py-4  subcolor p-lg-3 text-lg-center mt-3  d-flex flex-column-reverse flex-lg-row"
       >
         <div className="col p-lg-3 px-lg-0 px-3 p-3">
           <p style={{fontSize:"25px"}} className="text-start maincolor">
@@ -51,7 +50,7 @@ const CivilAndCommercialContent = () => {
             such as deceptive advertising and consumer fraud.
           </p>
         </div>
-        <div className="col col-lg-4 mt-lg-4 px-3">
+        <div className="col d-lg-flex align-items-center col-lg-6 col-xl-4 p-3 ">
           <img
             style={{ borderRadius: "15px" }}
             className="img-fluid"
@@ -63,9 +62,9 @@ const CivilAndCommercialContent = () => {
 
       <div
         style={{ borderRadius: "15px" }}
-        className="row py-lg-0 py-4  d-flex flex-column flex-lg-row   p-lg-3 text-lg-center mt-3 "
+        className="row px-lg-3 px-3 py-lg-0 py-4  d-flex flex-column flex-lg-row   p-lg-3 text-lg-center mt-3 "
       >
-        <div className="col col-lg-4 mt-lg-4 px-3">
+        <div className="col d-lg-flex align-items-center col-lg-6 col-xl-4 p-3 ">
           <img
             style={{ borderRadius: "15px" }}
             className="img-fluid"
@@ -89,7 +88,7 @@ const CivilAndCommercialContent = () => {
 
       <div
         style={{ borderRadius: "15px" }}
-        className="row py-lg-0 py-4  subcolor  d-flex flex-column-reverse flex-lg-row p-lg-3 text-lg-center mt-3 "
+        className="row px-lg-3 px-3 py-lg-0 py-4  subcolor  d-flex flex-column-reverse flex-lg-row p-lg-3 text-lg-center mt-3 "
       >
         <div className="col p-lg-3 px-lg-0 px-3 p-3">
           <p style={{fontSize:"25px"}} className="text-start maincolor"><b>Commercial Contract Disputes</b></p>
@@ -104,7 +103,7 @@ const CivilAndCommercialContent = () => {
             advocacy when needed.
           </p>
         </div>
-        <div className="col col-lg-4 mt-lg-4 px-3">
+        <div className="col d-lg-flex align-items-center col-lg-6 col-xl-4 p-3 ">
           <img
             style={{ borderRadius: "15px" }}
             className="img-fluid"
@@ -115,9 +114,9 @@ const CivilAndCommercialContent = () => {
       </div>
       <div
         style={{ borderRadius: "15px" }}
-        className="row py-lg-0 py-4  d-flex flex-column flex-lg-row  p-lg-3   mt-3"
+        className="row px-lg-3 px-3 py-lg-0 py-4  d-flex flex-column flex-lg-row  p-lg-3   mt-3"
       >
-        <div className="col col-lg-4 mt-lg-4 px-3">
+        <div className="col d-lg-flex align-items-center col-lg-6 col-xl-4 p-3 ">
           <img
             style={{ borderRadius: "15px" }}
             className="img-fluid"
@@ -142,7 +141,7 @@ const CivilAndCommercialContent = () => {
       </div>
       <div
         style={{ borderRadius: "15px" }}
-        className="row py-lg-0 py-4  d-flex flex-column-reverse subcolor flex-lg-row  p-lg-3   mt-3"
+        className="row px-lg-3 px-3 py-lg-0 py-4  d-flex flex-column-reverse subcolor flex-lg-row  p-lg-3   mt-3"
       >
         <div className="col p-lg-3 px-lg-0 px-3 p-3">
           <p style={{fontSize:"25px"}} className="text-start maincolor">
@@ -157,7 +156,7 @@ const CivilAndCommercialContent = () => {
             transparency, accountability, and long-term business stability.
           </p>
         </div>
-        <div className="col col-lg-4 mt-lg-4 px-3">
+        <div className="col d-lg-flex align-items-center col-lg-6 col-xl-4 p-3 ">
           <img
             style={{ borderRadius: "15px" }}
             className="img-fluid"
@@ -168,9 +167,9 @@ const CivilAndCommercialContent = () => {
       </div>
       <div
         style={{ borderRadius: "15px" }}
-        className="row py-lg-0 py-4  d-flex flex-column flex-lg-row  p-lg-3   mt-3"
+        className="row px-lg-3 px-3 py-lg-0 py-4  d-flex flex-column flex-lg-row  p-lg-3   mt-3"
       >
-        <div className="col col-lg-4 mt-lg-4 px-3">
+        <div className="col d-lg-flex align-items-center col-lg-6 col-xl-4 p-3 ">
           <img
             style={{ borderRadius: "15px" }}
             className="img-fluid"
@@ -190,7 +189,7 @@ const CivilAndCommercialContent = () => {
           </p>
         </div>
       </div>
-      <div className="row mt-2 mt-lg-5 subcolor  py-4  py-lg-3 py-4 subcolor">
+      <div className="row mt-2 px-lg-0 px-3 mt-lg-5 subcolor  py-4  py-lg-3 py-4 subcolor">
         <p className='maincolor' style={{fontSize:'25px'}}><b>Our Moto</b></p>
         <div className="col px-3">
           <p style={{textAlign:'justify'}}>

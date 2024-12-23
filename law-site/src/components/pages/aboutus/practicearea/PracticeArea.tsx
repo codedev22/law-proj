@@ -73,7 +73,7 @@ function PracticeArea() {
 
   return (
     <div className="mt-5">
-      <div className="row px-2 flex-column flex-lg-row flex-md-column  ">
+      <div className="row px-lg-0 px-3 flex-column flex-lg-row flex-md-column  ">
         <div className="">
           
           <p style={{ fontSize: "40px" }}>
