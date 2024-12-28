@@ -1,13 +1,10 @@
-import Footer from "../../../Shared/Footer/Footer";
-import NavBar from "../../../Shared/NavBar/NavBar";
 import CivilAndCommercialContent from "./CivilAndCommercialContent";
 import civilcombanner from '../../../../assets/mainpracticearea/banner/civilcombanner.png'
 const CivilAndCommerical = () => {
   return (
     <div>
-        <NavBar/>
-        <div>
-          <img src={civilcombanner} className="img-fluid" alt="" />
+        <div className="w-100">
+          <img src={civilcombanner} className="img-fluid w-100" alt="" />
         </div>
     <div className="container-lg container-fluid  py-lg-5 py-4">
       <div className="row px-3">
@@ -43,7 +40,6 @@ const CivilAndCommerical = () => {
       </div>
       <CivilAndCommercialContent/>
     </div>
-    <Footer/>
     </div>
 
   );

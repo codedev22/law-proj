@@ -24,7 +24,7 @@ function IntellectualPropertyLaw() {
         </div>
         <div className="col">
           <div>
-            <img className="img-thumbnail" src={propertyimg} alt="" />
+            <img className="img-thumbnail" src={propertyimg} alt="ipr" />
           </div>
         </div>
       </div>

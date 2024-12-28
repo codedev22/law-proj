@@ -9,12 +9,15 @@ import {
   };
 function Floatbtn() {
   return (
-    <div>
+    <div >
       <FloatButton
-      icon={<WhatsAppOutlined style={{ fontSize: '20px', color: '#25D366' }} />}
+      
+      icon={<WhatsAppOutlined  style={{ fontSize: '20px', color: '#25D366' }} />}
       style={{
+
         right: 3,
         bottom: 4,
+       
       }}
       className="whatsapp-float"
       onClick={handleRedirect}

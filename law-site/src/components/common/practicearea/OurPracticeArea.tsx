@@ -80,11 +80,11 @@ function OurPracticeArea() {
             {" "}
             <b>More Than 50 Practice Areas in All over INDIA </b>{" "}
           </p>
-          <p style={{ fontSize: "40px" }}>
+          <h1>
             <b>
               Our <b style={{ color: "#BF976C" }}>Practice</b> Area
             </b>
-          </p>
+          </h1>
         </div>
         <div
           style={{ textDecoration: "none" }}

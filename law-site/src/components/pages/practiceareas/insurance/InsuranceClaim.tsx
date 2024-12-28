@@ -1,13 +1,10 @@
-import Footer from "../../../Shared/Footer/Footer";
-import NavBar from "../../../Shared/NavBar/NavBar";
 import InsuranceClaimContent from "./InsuranceClaimContent";
 import insurancebanner from '../../../../assets/mainpracticearea/banner/insurancebanner.png'
 const InsuranceClaim = () => {
   return (
     <div>
-      <NavBar />
-      <div>
-        <img src={insurancebanner} className="img-fluid" alt="" />
+      <div className="w-100">
+        <img src={insurancebanner} className="img-fluid w-100" alt="" />
       </div>
       <div className=" container-lg container-fluid py-lg-5 py-4">
         <div className="row px-lg-0 px-3">
@@ -29,7 +26,6 @@ const InsuranceClaim = () => {
         </div>
         <InsuranceClaimContent />
       </div>
-      <Footer />
     </div>
   );
 };

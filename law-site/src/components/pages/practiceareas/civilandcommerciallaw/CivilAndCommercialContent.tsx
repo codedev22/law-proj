@@ -17,7 +17,7 @@ const CivilAndCommercialContent = () => {
             style={{ borderRadius: "15px" }}
             className="img-fluid"
             src={bankimg}
-            alt=""
+            alt="BankingandFinancial"
           />
         </div>
 
@@ -55,7 +55,7 @@ const CivilAndCommercialContent = () => {
             style={{ borderRadius: "15px" }}
             className="img-fluid"
             src={productimg}
-            alt=""
+            alt="ProductLiability"
           />
         </div>
       </div>
@@ -69,7 +69,7 @@ const CivilAndCommercialContent = () => {
             style={{ borderRadius: "15px" }}
             className="img-fluid"
             src={compimg}
-            alt=""
+            alt="CompensationandWages"
           />
         </div>
         <div className="col p-lg-3 px-lg-0 px-3 p-3">
@@ -108,7 +108,7 @@ const CivilAndCommercialContent = () => {
             style={{ borderRadius: "15px" }}
             className="img-fluid"
             src={commercialimg}
-            alt=""
+            alt="ContractDisputes"
           />
         </div>
       </div>
@@ -121,7 +121,7 @@ const CivilAndCommercialContent = () => {
             style={{ borderRadius: "15px" }}
             className="img-fluid"
             src={transactionsimg}
-            alt=""
+            alt="CommercialTransactions"
           />
         </div>
         <div className="col p-lg-3 px-lg-0 px-3 p-3">
@@ -161,7 +161,7 @@ const CivilAndCommercialContent = () => {
             style={{ borderRadius: "15px" }}
             className="img-fluid"
             src={regulatoryimg}
-            alt=""
+            alt="CorporateGovernance"
           />
         </div>
       </div>
@@ -174,7 +174,7 @@ const CivilAndCommercialContent = () => {
             style={{ borderRadius: "15px" }}
             className="img-fluid"
             src={tortimg}
-            alt=""
+            alt="tortclaims"
           />
         </div>
         <div className="col p-lg-3 px-lg-0 px-3 p-3">

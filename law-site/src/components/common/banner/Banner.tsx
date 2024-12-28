@@ -5,7 +5,7 @@ function Banner() {
   return (
     <div className=" w-100">
       <div className="w-100">
-        <Image src={banimg} className="banner-img w-100" alt="" />
+        <Image src={banimg} className="banner-img w-100 z-1" alt="mainbanner" />
       </div>
     </div>
   );

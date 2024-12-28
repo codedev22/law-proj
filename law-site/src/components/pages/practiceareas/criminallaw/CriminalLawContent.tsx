@@ -24,13 +24,13 @@ const CriminalLawContent = () => {
             style={{ borderRadius: "15px" }}
             className="img-fluid"
             src={bailimg}
-            alt=""
+            alt="BailandAnticipatory"
           />
         </div>
 
         <div className="col p-lg-3 px-lg-0 px-lg-0 px-3 p-3">
           <p style={{ fontSize: "25px" }} className="text-start maincolor">
-            <b> Bail and Anticipatory Bail Applications</b>
+            <b>Bail and Anticipatory Bail Applications</b>
           </p>
           <p className="" style={{ textAlign: "justify", fontSize: "19px" }}>
             Securing bail or anticipatory bail is crucial in criminal cases to
@@ -62,7 +62,7 @@ const CriminalLawContent = () => {
             style={{ borderRadius: "15px" }}
             className="img-fluid"
             src={firimg}
-            alt=""
+            alt="CriminalComplaints"
           />
         </div>
       </div>
@@ -75,7 +75,7 @@ const CriminalLawContent = () => {
             style={{ borderRadius: "15px" }}
             className="img-fluid"
             src={courtsimg}
-            alt=""
+            alt="RepresentationBeforeCourts"
           />
         </div>
         <div className="col p-lg-3 px-lg-0 px-3 p-3">
@@ -111,7 +111,7 @@ const CriminalLawContent = () => {
             style={{ borderRadius: "15px" }}
             className="img-fluid"
             src={criminalimg}
-            alt=""
+            alt="Pre-LitigationAdvice"
           />
         </div>
       </div>
@@ -124,7 +124,7 @@ const CriminalLawContent = () => {
             style={{ borderRadius: "15px" }}
             className="img-fluid"
             src={whiteimg}
-            alt=""
+            alt="DefenseinWhite-CollarCrimes<"
           />
         </div>
         <div className="col p-lg-3 px-lg-0 px-3 p-3">
@@ -145,7 +145,7 @@ const CriminalLawContent = () => {
       >
         <div className="col p-lg-3 px-lg-0 px-3 p-3">
           <p style={{ fontSize: "25px" }} className="text-start maincolor">
-            <b> Handling Economic Offenses</b>
+            <b>Handling Economic Offenses</b>
           </p>
           <p style={{ textAlign: "justify", fontSize: "19px" }}>
             Economic offenses, including money laundering and tax evasion, are
@@ -159,7 +159,7 @@ const CriminalLawContent = () => {
             style={{ borderRadius: "15px" }}
             className="img-fluid"
             src={offensesimg}
-            alt=""
+            alt="HandlingEconomic`Offenses"
           />
         </div>
       </div>
@@ -172,7 +172,7 @@ const CriminalLawContent = () => {
             style={{ borderRadius: "15px" }}
             className="img-fluid"
             src={domesticimg}
-            alt=""
+            alt="DomesticViolence"
           />
         </div>
         <div className="col p-lg-3 px-lg-0 px-3 p-3">
@@ -207,7 +207,7 @@ const CriminalLawContent = () => {
             style={{ borderRadius: "15px" }}
             className="img-fluid"
             src={courtcaseimg}
-            alt=""
+            alt="ContemptofcourtCases"
           />
         </div>
       </div>
@@ -220,7 +220,7 @@ const CriminalLawContent = () => {
             style={{ borderRadius: "15px" }}
             className="img-fluid"
             src={specialimg}
-            alt=""
+            alt="SpecialCriminalProceedings"
           />
         </div>
         <div className="col p-lg-3 px-lg-0 px-3 p-3">
@@ -256,7 +256,7 @@ const CriminalLawContent = () => {
             style={{ borderRadius: "15px" }}
             className="img-fluid"
             src={appealimg}
-            alt=""
+            alt="AppealsandRevisions"
           />
         </div>
       </div>
@@ -268,7 +268,7 @@ const CriminalLawContent = () => {
           <img
             className="img-fluid position-relative opacity-25"
             src={bglogo}
-            alt=""
+            alt="sublogo"
           />
           <p
             className="maincolor1 px-3 py-3 position-absolute text-center"

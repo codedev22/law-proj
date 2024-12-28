@@ -24,7 +24,7 @@ function LabourLaw() {
         </div>
         <div className="col">
           <div>
-            <img className="img-thumbnail" src={labourimg} alt="" />
+            <img className="img-thumbnail" src={labourimg} alt="labour" />
           </div>
         </div>
       </div>

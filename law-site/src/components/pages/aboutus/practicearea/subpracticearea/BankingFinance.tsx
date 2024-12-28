@@ -16,7 +16,7 @@ function BankingFinance() {
         </div>
         <div className="col">
           <div className="">
-            <img className="img-thumbnail" src={bankimg} alt="" />
+            <img className="img-thumbnail" src={bankimg} alt="financialstructuring" />
           </div>
         </div>
       </div>

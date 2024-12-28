@@ -16,7 +16,7 @@ function EmploymentLabour() {
         </div>
         <div className="col">
           <div className="">
-            <img className="img-thumbnail" src={empimg} alt="" />
+            <img className="img-thumbnail" src={empimg} alt="labourlaw" />
           </div>
         </div>
       </div>

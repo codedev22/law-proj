@@ -15,7 +15,7 @@ const IPRContent = () => {
             style={{ borderRadius: "15px" }}
             className="img-fluid"
             src={patentimg}
-            alt=""
+            alt="Patent"
           />
         </div>
 
@@ -57,7 +57,7 @@ const IPRContent = () => {
             style={{ borderRadius: "15px" }}
             className="img-fluid"
             src={tradeimg}
-            alt=""
+            alt="Trademark"
           />
         </div>
       </div>
@@ -68,7 +68,7 @@ const IPRContent = () => {
             style={{ borderRadius: "15px" }}
             className="img-fluid"
             src={copyimg}
-            alt=""
+            alt="Copyright"
           />
         </div>
         <div className="col p-lg-3 px-lg-0 px-3 p-3">
@@ -110,7 +110,7 @@ const IPRContent = () => {
             style={{ borderRadius: "15px" }}
             className="img-fluid"
             src={secretimg}
-            alt=""
+            alt="Trade"
           />
         </div>
       </div>
@@ -120,7 +120,7 @@ const IPRContent = () => {
             style={{ borderRadius: "15px" }}
             className="img-fluid"
             src={ipimg}
-            alt=""
+            alt="Litigation"
           />
         </div>
         <div className="col p-lg-3 px-lg-0 px-3 p-3">
@@ -161,7 +161,7 @@ const IPRContent = () => {
             style={{ borderRadius: "15px" }}
             className="img-fluid"
             src={licenceimg}
-            alt=""
+            alt="Licensing"
           />
         </div>
       </div>
@@ -171,7 +171,7 @@ const IPRContent = () => {
             style={{ borderRadius: "15px" }}
             className="img-fluid"
             src={auditimg}
-            alt=""
+            alt="Audits"
           />
         </div>
         <div className="col p-lg-3 px-lg-0 px-3 p-3">

@@ -16,7 +16,7 @@ function CriminalDefence() {
         </div>
         <div className="col">
           <div className="">
-            <img className="img-thumbnail" src={crimimg} alt="" />
+            <img className="img-thumbnail" src={crimimg} alt="criminaldefense" />
           </div>
         </div>
       </div>

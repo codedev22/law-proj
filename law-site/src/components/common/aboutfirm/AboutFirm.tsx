@@ -15,10 +15,10 @@ function AboutFirm() {
       <div style={{borderRadius:'15px'}} className="row aboutfirm-parent  d-flex flex-column  flex-lg-row flex-md-row px-lg-0 px-3     py-4     ">
         <div className="col  px-lg-3 px-0">
           <p style={{ fontSize: "20px" }}>Start New Case</p>
-          <p style={{ fontSize: "35px" }}>
+          <h1>
             {" "}
             <b>How it Works?</b>{" "}
-          </p>
+          </h1>
           <div className="case-div   ">
             <ul style={{ listStyle: "none" }}>
               <li className="p-2 ">
@@ -78,10 +78,10 @@ function AboutFirm() {
         </div>
         <div className="col px-lg-3  px-0 ">
           <p style={{ fontSize: "20px" }}>About the Firm </p>
-          <p style={{ fontSize: "35px" }}>
+          <h1>
             {" "}
             <b>Our History</b>{" "}
-          </p>
+          </h1>
 
           <div className="case-div">
             <ul style={{ listStyle: "none" }}>

@@ -20,7 +20,7 @@ const DebtRecoveryContent = () => {
             style={{ borderRadius: "15px" }}
             className="img-fluid"
             src={recoverimg}
-            alt=""
+            alt="DebtRecovery"
           />
         </div>
 
@@ -52,7 +52,7 @@ const DebtRecoveryContent = () => {
             style={{ borderRadius: "15px" }}
             className="img-fluid"
             src={negotiationimg}
-            alt=""
+            alt="Negotiation"
           />
         </div>
       </div>
@@ -66,7 +66,7 @@ const DebtRecoveryContent = () => {
             style={{ borderRadius: "15px" }}
             className="img-fluid"
             src={seizureimg}
-            alt=""
+            alt="Asset"
           />
         </div>
         <div className="col p-lg-3 px-lg-0 px-3 p-3">
@@ -94,7 +94,7 @@ const DebtRecoveryContent = () => {
             style={{ borderRadius: "15px" }}
             className="img-fluid"
             src={bankruptimg}
-            alt=""
+            alt="Bankruptcy"
           />
         </div>
       </div>
@@ -107,7 +107,7 @@ const DebtRecoveryContent = () => {
             style={{ borderRadius: "15px" }}
             className="img-fluid"
             src={legalnoticeimg}
-            alt=""
+            alt="Legal"
           />
         </div>
         <div className="col p-lg-3 px-lg-0 px-3 p-3">
@@ -139,7 +139,7 @@ const DebtRecoveryContent = () => {
             style={{ borderRadius: "15px" }}
             className="img-fluid"
             src={financedebtimg}
-            alt=""
+            alt="Financial"
           />
         </div>
       </div>
@@ -152,7 +152,7 @@ const DebtRecoveryContent = () => {
             style={{ borderRadius: "15px" }}
             className="img-fluid"
             src={adviceimg}
-            alt=""
+            alt="ManagementAdvice"
           />
         </div>
         <div className="col p-lg-3 px-lg-0 px-3 p-3">

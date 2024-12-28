@@ -4,7 +4,7 @@ const WhyHighbrows = () => {
   return (
        <div style={{borderRadius:'15px'}} className="row px-lg-0 px-3 subcolor p-lg-2 mt-5 d-flex flex-column flex-lg-row">
           <div className="col  d-flex align-items-center justify-content-center">
-            <img className="img-fluid position-relative opacity-25" src={bglogo} alt="" />
+            <img className="img-fluid position-relative opacity-25" src={bglogo} alt="sublogo" />
              <p
               className="maincolor1 px-3 py-3 position-absolute text-center"
               style={{ fontSize: "30px" }}

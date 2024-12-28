@@ -14,9 +14,9 @@ function IntellectualPropertyRights() {
             trademarks, copyrights, and trade secrets.
           </p>
         </div>
-        <div className="col mt-lg-4">
+        <div className="col ">
           <div className="">
-            <img className="img-thumbnail" src={iprimg} alt="" />
+            <img className="img-thumbnail" src={iprimg} alt="ipr" />
           </div>
         </div>
       </div>

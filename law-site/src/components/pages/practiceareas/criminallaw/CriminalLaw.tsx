@@ -1,13 +1,10 @@
-import Footer from "../../../Shared/Footer/Footer";
-import NavBar from "../../../Shared/NavBar/NavBar";
 import CriminalLawContent from "./CriminalLawContent";
 import criminalbanner from '../../../../assets/mainpracticearea/banner/criminalbanner.png'
 const CriminalLaw = () => {
   return (
     <div>
-      <NavBar />
-      <div>
-        <img src={criminalbanner} className="img-fluid" alt="" />
+      <div className="w-100">
+        <img src={criminalbanner} className="img-fluid w-100" alt="" />
       </div>
       <div className="container-lg container-fluid py-lg-5 py-4">
         <div className="row px-3">
@@ -29,7 +26,6 @@ const CriminalLaw = () => {
         </div>
         <CriminalLawContent />
       </div>
-      <Footer />
     </div>
   );
 };

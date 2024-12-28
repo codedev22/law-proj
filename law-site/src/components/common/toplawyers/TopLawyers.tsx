@@ -5,7 +5,7 @@ function TopLawyers() {
     <div>
       <div className="container-fluid  p-0   ">
         <div className="row px-lg-1 px-3 mt-5 ">
-          <p style={{ fontSize: "35px" }}>
+          <h1>
             {" "}
             <b>
               Recognized <b style={{ color: "#BF976C" }}>Advocates</b> and{" "}
@@ -16,7 +16,7 @@ function TopLawyers() {
             </b>{" "}
             <b> for Excellence in</b> <br />
             <b>Tamil Nadu and All over India</b>
-          </p>
+          </h1>
           <p style={{ fontSize: "20px", textAlign: "justify" }}>
             With professionalism at our core, we prioritize our clients' welfare
             through trust, transparency, and personalized attention. Our

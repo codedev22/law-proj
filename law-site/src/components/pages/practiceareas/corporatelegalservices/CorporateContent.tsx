@@ -14,7 +14,7 @@ const CorporateContent = () => {
       >
         
         <div className="col d-lg-flex align-items-center col-lg-6 col-xl-4 p-3 ">
-          <img style={{borderRadius:'15px'}} className="img-fluid" src={businessimg} alt="" />
+          <img style={{borderRadius:'15px'}} className="img-fluid" src={businessimg} alt="BusinessFormationandStructuring" />
         </div>
 
         <div className="col  p-lg-3 px-lg-0 px-3  p-3">
@@ -50,7 +50,7 @@ const CorporateContent = () => {
           </p>
         </div>
         <div className="col d-lg-flex align-items-center col-lg-6 col-xl-4 p-3  ">
-          <img style={{borderRadius:'15px'}} className="img-fluid" src={mergeimg} alt="" />
+          <img style={{borderRadius:'15px'}} className="img-fluid" src={mergeimg} alt="MergersandAcquisitions" />
         </div>
       </div>
 
@@ -58,7 +58,7 @@ const CorporateContent = () => {
         className="row  px-lg-3 px-3 py-lg-0 py-4  d-flex flex-column flex-lg-row   p-lg-3 text-lg-center mt-3 "
       >
         <div className="col d-lg-flex align-items-center col-lg-6 col-xl-4 p-3 ">
-          <img style={{borderRadius:'15px'}} className="img-fluid" src={corpgovimg} alt="" />
+          <img style={{borderRadius:'15px'}} className="img-fluid" src={corpgovimg} alt="CorporateGovernance" />
         </div>
         <div className="col p-lg-3 px-lg-0 px-3 p-3">
           <p style={{ fontSize: "25px" }} className="text-start maincolor"><b>Corporate Governance</b></p>
@@ -90,14 +90,14 @@ const CorporateContent = () => {
           </p>
         </div>
         <div className="col d-lg-flex align-items-center col-lg-6 col-xl-4 p-3 ">
-          <img style={{borderRadius:'15px'}} className="img-fluid" src={draftimg} alt="" />
+          <img style={{borderRadius:'15px'}} className="img-fluid" src={draftimg} alt="ContractandNegotiation" />
         </div>
       </div>
       <div
         className="row px-lg-3 px-3 py-lg-0 py-4   d-flex flex-column flex-lg-row  p-lg-3   mt-3"
       >
         <div className="col d-lg-flex align-items-center col-lg-6 col-xl-4 p-3 ">
-          <img style={{borderRadius:'15px'}} className="img-fluid" src={emplawimg} alt="" />
+          <img style={{borderRadius:'15px'}} className="img-fluid" src={emplawimg} alt="EmploymentLawCompliance" />
         </div>
         <div className="col p-lg-3 px-lg-0 px-3 p-3">
           <p style={{ fontSize: "25px" }} className="text-start maincolor"><b>Employment Law Compliance</b></p>
@@ -126,14 +126,14 @@ const CorporateContent = () => {
           </p>
         </div>
         <div className="col d-lg-flex align-items-center col-lg-6 col-xl-4 p-3 ">
-          <img style={{borderRadius:'15px'}} className="img-fluid" src={bankimg} alt="" />
+          <img style={{borderRadius:'15px'}} className="img-fluid" src={bankimg} alt="BankingandFinance" />
         </div>
       </div>
       <div
         className="row px-lg-3 px-3 py-lg-0 py-4  d-flex flex-column flex-lg-row  p-lg-3   mt-3"
       >
         <div className="col d-lg-flex align-items-center col-lg-6 col-xl-4 p-3 ">
-          <img style={{borderRadius:'15px'}} className="img-fluid" src={disputeimg} alt="" />
+          <img style={{borderRadius:'15px'}} className="img-fluid" src={disputeimg} alt="DisputeResolution" />
         </div>
         <div className="col p-lg-3 px-lg-0 px-3 p-3">
           <p style={{ fontSize: "25px" }} className="text-start maincolor"><b>Dispute Resolution</b></p>

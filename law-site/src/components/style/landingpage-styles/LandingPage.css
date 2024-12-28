@@ -38,17 +38,24 @@
 
 
 
- .practice-area-ul li:hover {
-  color: #BF976C; /* Changes text color to red on hover */
-  cursor: pointer; /* Optional: Adds a pointer cursor for better UX */
-  transform: translateX(2px);
-  transition: 0.3s ease;
+
+
+.ministyle {
+  transition: 0.1s ease;
+  color: white; /* Default text color is white */
 }
 
-.practice-area-ul li {
-  transition: 0.3s ease;
-
+/* Hover effect */
+.ministyle:hover {
+  color: #BF976C; /* Changes text color on hover */
+  cursor: pointer; /* Adds pointer cursor for better UX */
+  transform: translateX(9px);
+  transition: 0.1s ease;
 }
+
+
+
+
 
 
 /* .adv-talk-div{

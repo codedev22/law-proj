@@ -14,9 +14,9 @@ function DisputeResolution() {
             with efficiency and discretion.
           </p>
         </div>
-        <div className="col mt-lg-5">
+        <div className="col ">
           <div className="">
-            <img className="img-thumbnail" src={disimg} alt="" />
+            <img className="img-thumbnail" src={disimg} alt="disputeresolution" />
           </div>
         </div>
       </div>

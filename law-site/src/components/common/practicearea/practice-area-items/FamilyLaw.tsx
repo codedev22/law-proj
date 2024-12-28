@@ -23,7 +23,7 @@ function FamilyLaw() {
         </div>
         <div className="col">
           <div>
-            <img className="img-thumbnail" src={famimg} alt="" />
+            <img className="img-thumbnail" src={famimg} alt="familylaw" />
           </div>
         </div>
       </div>

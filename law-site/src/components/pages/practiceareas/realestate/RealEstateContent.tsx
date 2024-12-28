@@ -18,7 +18,7 @@ const RealEstateContent = () => {
             style={{ borderRadius: "15px" }}
             className="img-fluid"
             src={titleimg}
-            alt=""
+            alt="Property"
           />
         </div>
 
@@ -56,7 +56,7 @@ const RealEstateContent = () => {
             style={{ borderRadius: "15px" }}
             className="img-fluid"
             src={reviewimg}
-            alt=""
+            alt="Drafting"
           />
         </div>
       </div>
@@ -70,7 +70,7 @@ const RealEstateContent = () => {
             style={{ borderRadius: "15px" }}
             className="img-fluid"
             src={disputeimg}
-            alt=""
+            alt="Real"
           />
         </div>
         <div className="col p-lg-3 px-lg-0 px-3 p-3">
@@ -104,7 +104,7 @@ const RealEstateContent = () => {
             style={{ borderRadius: "15px" }}
             className="img-fluid"
             src={landimg}
-            alt=""
+            alt="Acquisition"
           />
         </div>
       </div>
@@ -117,7 +117,7 @@ const RealEstateContent = () => {
             style={{ borderRadius: "15px" }}
             className="img-fluid"
             src={rentimg}
-            alt=""
+            alt="Rental"
           />
         </div>
         <div className="col p-lg-3 px-lg-0 px-3 p-3">
@@ -150,7 +150,7 @@ const RealEstateContent = () => {
             style={{ borderRadius: "15px" }}
             className="img-fluid"
             src={taximg}
-            alt=""
+            alt="Property"
           />
         </div>
       </div>
@@ -163,7 +163,7 @@ const RealEstateContent = () => {
             style={{ borderRadius: "15px" }}
             className="img-fluid"
             src={tortimg}
-            alt=""
+            alt="Arbitration"
           />
         </div>
         <div className="col p-lg-3 px-lg-0 px-3 p-3">

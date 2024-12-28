@@ -16,7 +16,7 @@ function RealEstate() {
         </div>
         <div className="col">
           <div className="">
-            <img className="img-thumbnail" src={realimg} alt="" />
+            <img className="img-thumbnail" src={realimg} alt="realestate" />
           </div>
         </div>
       </div>

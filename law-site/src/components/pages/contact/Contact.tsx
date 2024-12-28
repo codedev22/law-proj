@@ -1,5 +1,3 @@
-import NavBar from "../../Shared/NavBar/NavBar";
-import Footer from "../../Shared/Footer/Footer";
 import "../../style/contactstyles/Contact.css";
 import CaseForm from "../../common/caseform/CaseForm";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -13,7 +11,6 @@ const Contact = () => {
 
   return (
     <div>
-      <NavBar />
       <div className="container-lg container-fluid p-lg-5 ">
         <div
           style={{ borderRadius: "15px" }}
@@ -112,7 +109,6 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 };

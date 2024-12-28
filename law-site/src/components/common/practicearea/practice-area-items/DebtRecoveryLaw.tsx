@@ -24,7 +24,7 @@ function DebtRecoveryLaw() {
         </div>
         <div className="col">
           <div>
-            <img className="img-thumbnail" src={debtimg} alt="" />
+            <img className="img-thumbnail" src={debtimg} alt="debt" />
           </div>
         </div>
       </div>

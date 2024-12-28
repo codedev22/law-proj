@@ -11,12 +11,12 @@ function CorporateCommercial() {
         <div className="col">
           <p style={{ fontSize: "19px", textAlign: "justify" }}>
             Providing strategic counsel on mergers, acquisitions, contract
-            negotiations, regulatory compliance, and more 
+            negotiations, regulatory compliance.
           </p>
         </div>
-        <div className="col mt-lg-5 ">
+        <div className="col">
           <div className="">
-            <img className="img-thumbnail" src={corpandcomimg} alt="" />
+            <img className="img-thumbnail" src={corpandcomimg} alt="corporatelaw" />
           </div>
         </div>
       </div>

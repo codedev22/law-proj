@@ -1,5 +1,3 @@
-import NavBar from "../../Shared/NavBar/NavBar";
-import Footer from "../../Shared/Footer/Footer";
 import Banner from "../../common/banner/Banner";
 import PracticeArea from "./practicearea/PracticeArea";
 import WhyHighbrows from "./whyhighbrows/WhyHighbrows";
@@ -7,7 +5,6 @@ import AboutUsContent from "./aboutuscontent/AboutUsContent";
 const AboutUs = () => {
   return (
     <div>
-      <NavBar />
         <Banner />
       <div className="container  p-lg-5 px-lg-5 mt-3">
         <AboutUsContent/>
@@ -38,7 +35,6 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 };

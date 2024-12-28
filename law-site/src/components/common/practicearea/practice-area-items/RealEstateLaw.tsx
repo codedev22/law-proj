@@ -24,7 +24,7 @@ function RealEstateLaw() {
         </div>
         <div className="col">
           <div>
-            <img className="img-thumbnail" src={realestateimg} alt="" />
+            <img className="img-thumbnail" src={realestateimg} alt="realestate" />
           </div>
         </div>
       </div>

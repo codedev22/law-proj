@@ -30,7 +30,7 @@ function CorporateLegalServices() {
               className=""
              
             >
-              <img className="img-thumbnail" src={corpimg} alt="" />
+              <img className="img-thumbnail" src={corpimg} alt="corporate" />
             </div>
           </div>
         </div>

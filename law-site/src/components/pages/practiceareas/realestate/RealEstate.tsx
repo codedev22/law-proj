@@ -1,13 +1,10 @@
-import Footer from "../../../Shared/Footer/Footer";
-import NavBar from "../../../Shared/NavBar/NavBar";
 import RealEstateContent from "./RealEstateContent";
 import realestatebanner from '../../../../assets/mainpracticearea/banner/realestatebanner.png'
 const RealEstate = () => {
   return (
     <div>
-      <NavBar />
-      <div>
-        <img src={realestatebanner} className="img-fluid" alt="" />
+      <div className="w-100">
+        <img src={realestatebanner} className="img-fluid w-100" alt="" />
       </div>
       <div className=" container-lg container-fluid py-lg-5 py-4">
         <div className="row px-lg-0 px-3">
@@ -29,7 +26,6 @@ const RealEstate = () => {
         </div>
         <RealEstateContent />
       </div>
-      <Footer />
     </div>
   );
 };

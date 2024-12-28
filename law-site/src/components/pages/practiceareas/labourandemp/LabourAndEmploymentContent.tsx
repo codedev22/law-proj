@@ -23,7 +23,7 @@ const LabourAndEmploymentContent = () => {
             style={{ borderRadius: "15px" }}
             className="img-fluid"
             src={draftimg}
-            alt=""
+            alt="Employment"
           />
         </div>
 
@@ -58,7 +58,7 @@ const LabourAndEmploymentContent = () => {
             style={{ borderRadius: "15px" }}
             className="img-fluid"
             src={terminateimg}
-            alt=""
+            alt="Wrongful"
           />
         </div>
       </div>
@@ -72,7 +72,7 @@ const LabourAndEmploymentContent = () => {
             style={{ borderRadius: "15px" }}
             className="img-fluid"
             src={salaryimg}
-            alt=""
+            alt="Wage"
           />
         </div>
         <div className="col p-lg-3 px-lg-0 px-3 p-3">
@@ -107,7 +107,7 @@ const LabourAndEmploymentContent = () => {
             style={{ borderRadius: "15px" }}
             className="img-fluid"
             src={workharassmentimg}
-            alt=""
+            alt="Grievance"
           />
         </div>
       </div>
@@ -120,7 +120,7 @@ const LabourAndEmploymentContent = () => {
             style={{ borderRadius: "15px" }}
             className="img-fluid"
             src={bargainimg}
-            alt=""
+            alt="Labour"
           />
         </div>
         <div className="col p-lg-3 px-lg-0 px-3 p-3">
@@ -155,7 +155,7 @@ const LabourAndEmploymentContent = () => {
             style={{ borderRadius: "15px" }}
             className="img-fluid"
             src={disciplinaryimg}
-            alt=""
+            alt="Disciplinary"
           />
         </div>
       </div>
@@ -168,7 +168,7 @@ const LabourAndEmploymentContent = () => {
             style={{ borderRadius: "15px" }}
             className="img-fluid"
             src={safteyimg}
-            alt=""
+            alt="Workplace"
           />
         </div>
         <div className="col p-lg-3 px-lg-0 px-3 p-3">
@@ -202,7 +202,7 @@ const LabourAndEmploymentContent = () => {
             style={{ borderRadius: "15px" }}
             className="img-fluid"
             src={benefitsimg}
-            alt=""
+            alt="Provident"
           />
         </div>
       </div>
@@ -215,7 +215,7 @@ const LabourAndEmploymentContent = () => {
             style={{ borderRadius: "15px" }}
             className="img-fluid"
             src={representimg}
-            alt=""
+            alt="Representation"
           />
         </div>
         <div className="col p-lg-3 px-lg-0 px-3 p-3">
@@ -249,7 +249,7 @@ const LabourAndEmploymentContent = () => {
             style={{ borderRadius: "15px" }}
             className="img-fluid"
             src={layoffimg}
-            alt=""
+            alt="Layoffs"
           />
         </div>
       </div>
@@ -261,7 +261,7 @@ const LabourAndEmploymentContent = () => {
           <img
             className="img-fluid position-relative opacity-25"
             src={bglogo}
-            alt=""
+            alt="sublogo"
           />
           <p
             className="maincolor1 px-3 py-3 position-absolute text-center"

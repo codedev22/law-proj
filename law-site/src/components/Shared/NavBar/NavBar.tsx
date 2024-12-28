@@ -2,9 +2,8 @@ import logo from "../../../assets/images/final-logo.png";
 import '../../style/navbarstyle/Navbar.css'
 import { PhoneOutlined } from "@ant-design/icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope, faBars } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope, faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
-
 function NavBar() {
   return (
     <div className="">
@@ -14,12 +13,12 @@ function NavBar() {
           className="container-fluid p-3 px-lg-5 d-flex flex-col justify-content-center"
         >
           <div className="row container-lg container-fluid w-100 ">
-            <a
-              href="/"
+            <Link
+              to="/"
               className="col-lg-4 col-xl-3 col-md-4 col-6 mt-lg-3 mt-2"
             >
-              <img className="img-fluid " src={logo} alt="Logo" />
-            </a>
+              <img className="img-fluid" src={logo} alt="Logo" />
+            </Link>
 
             <div className="d-flex align-items-center align-content-center justify-content-end gap-lg-3 gap-0 col ">
               <div className="callus-div text-light d-none d-lg-flex ">
@@ -28,7 +27,7 @@ function NavBar() {
                 </p>
               </div>
               <div className="consultation-div">
-                <a href="/contact" className="consultation-button  btn btn-lg  ">
+                <Link to="/contact" className="consultation-button  btn btn-lg  ">
                   <span
                     style={{
                       backgroundColor: "#BF976C",
@@ -44,7 +43,7 @@ function NavBar() {
                     className="text-light consultation-icon d-flex d-lg-none"
                     icon={faEnvelope}
                   />
-                </a>
+                </Link>
               </div>
               <div className="">
                 <button
@@ -68,10 +67,12 @@ function NavBar() {
         </div>
       </nav>
       <nav className="menu-nav  navbar py-0  navbar-expand-lg ">
+      
         <div
           style={{ backgroundColor: "#18273E" }}
           className="container-fluid px-lg-5 "
         >
+          
           <div
             style={{ backgroundColor: "#18273E" }}
             className="offcanvas offcanvas-end custom-offcanvas w-75"
@@ -79,27 +80,31 @@ function NavBar() {
             id="offcanvasNavbar"
             aria-labelledby="offcanvasNavbarLabel"
           >
-            <div className="offcanvas-body container-lg px-lg-4 container-fluid">
+            <div className="offcanvas-body  container-lg px-lg-4 container-fluid">
+            <div  className="d-flex d-lg-none justify-content-end py-0  ">
+           <button type="button" className="btn btn-sm py-0 nav-close  text-reset " data-bs-dismiss="offcanvas" aria-label="Close"><FontAwesomeIcon className="text-light nav-close-icon fs-2" icon={faXmark}/></button>
+
+           </div> 
               <ul className="navbar-nav ">
                 <li className="nav-item">
-                  <a
+                  <Link
                     style={{ color: "#BF976C" }}
                     className="nav-link active"
                     aria-current="page"
-                    href="/"
+                    to="/"
                   >
                     Home
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a
+                  <Link
                     style={{ color: "#BF976C" }}
                     className="nav-link active "
                     aria-current="page"
-                    href="/aboutus"
+                    to="/aboutus"
                   >
                     About us
-                  </a>
+                  </Link>
                 </li>
                 <div className="dropdown">
                   <button
@@ -116,94 +121,95 @@ function NavBar() {
                     className="dropdown-menu practice-list"
                   >
                     <li>
-                      <a
+                      <Link
                         style={{ color: "#BF976C" }}
                         className="dropdown-item"
-                        href="/corporate-legal-service"
+                        to="/corporate-legal-service"
                       >
                         Corporate Legal Services
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
+                      <Link
                         style={{ color: "#BF976C" }}
                         className="dropdown-item"
-                        href="/intellectual-property-rights"
+                        to="/intellectual-property-rights"
                       >
                         Intellectual Property Rights
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
+                      <Link
                         style={{ color: "#BF976C" }}
                         className="dropdown-item"
-                        href="/family-matrimonial"
-                      >
-                        Family and Matrimonial Law
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        style={{ color: "#BF976C" }}
-                        className="dropdown-item"
-                        href="/civil-commercial"
-                      >
-                        Civil and Commercial Law
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        style={{ color: "#BF976C" }}
-                        className="dropdown-item"
-                        href="/criminal-law"
+                        to="/criminal-law"
                       >
                         Criminal Law Services
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
+                      <Link
                         style={{ color: "#BF976C" }}
                         className="dropdown-item"
-                        href="/mortgage-claims"
+                        to="/family-matrimonial"
+                      >
+                        Family and Matrimonial Law
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        style={{ color: "#BF976C" }}
+                        className="dropdown-item"
+                        to="/civil-commercial"
+                      >
+                        Civil and Commercial Law
+                      </Link>
+                    </li>
+                  
+                    <li>
+                      <Link
+                        style={{ color: "#BF976C" }}
+                        className="dropdown-item"
+                        to="/mortgage-claims"
                       >
                         Mortgage Claims
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
+                      <Link
                         style={{ color: "#BF976C" }}
                         className="dropdown-item"
-                        href="/labour-employment"
+                        to="/labour-employment"
                       >
                         Labour and Employment Law
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
+                      <Link
                         style={{ color: "#BF976C" }}
                         className="dropdown-item"
-                        href="/debt-recovery"                     
+                        to="/debt-recovery"                     
                        >
                         Debt Recovery Law
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
+                      <Link
                         style={{ color: "#BF976C" }}
                         className="dropdown-item"
-                      href="/real-estate"
+                      to="/real-estate"
                       >
                         Real Estate Law
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
+                      <Link
                         style={{ color: "#BF976C" }}
                         className="dropdown-item"
-                        href="/insurance-claims"
+                        to="/insurance-claims"
                       >
                         Insurance Claim
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -212,20 +218,20 @@ function NavBar() {
                     style={{ color: "#BF976C" }}
                     className="nav-link active "
                     aria-current="page"
-                    to={""}
+                    to="/blog"
                   >
                     Blog
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <a
+                  <Link
                     style={{ color: "#BF976C" }}
                     className="nav-link active "
                     aria-current="page"
-                    href="/contact"
+                    to="/contact"
                   >
                     Contact
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

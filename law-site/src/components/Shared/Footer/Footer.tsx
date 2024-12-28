@@ -1,6 +1,6 @@
 import { Space } from "antd";
 import Floatbtn from "../../../components/common/Floatbtn";
-import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import {
   LinkedinOutlined,
   XOutlined,
@@ -12,7 +12,6 @@ import {
 } from "@ant-design/icons";
 import "../../style/common-styles/Common.css";
 function Footer() {
-  const navigate = useNavigate();
   const phoneNumber = "+918110011188";
 
   return (
@@ -30,7 +29,7 @@ function Footer() {
             <ul className="list-unstyled text-start">
               <p
                 style={{ fontSize: "17px", textAlign: "justify" }}
-                className="text-justify text-light "
+                className="text-justify text-light"
               >
                 At Highbrows Legal, we are more than just a team of skilled
                 lawyers. Our commitment lies in building strong, lasting
@@ -43,163 +42,132 @@ function Footer() {
               </p>
             </ul>
           </div>
-          <div className="col ">
+          <div className="col py-lg-0 py-3 ">
             <p style={{ color: "#BF976C" }} className="text-start">
               Practices Area
             </p>
             <hr className="bg-light " style={{ border: "1px dashed" }} />
-            <div className="d-flex">
-              <ul
-                style={{ fontSize: "17px" }}
-                className="practice-area-ul text-start list-unstyled text-light  "
+            <div className="d-flex flex-column text-start list-unstyled text-light">
+              <Link
+                className="ministyle text-decoration-none"
+                to="/corporate-legal-service"
               >
-                <li
-                  onClick={() => {
-                    navigate("/corporate-legal-service");
-                  }}
-                >
-                  <DoubleRightOutlined className="mx-1" />
-                  Corporate Legal Services in TN & INDIA
-                </li>
-                <li
-                  onClick={() => {
-                    navigate("/intellectual-property-rights");
-                  }}
-                >
-                  <DoubleRightOutlined className="mx-1" />
-                  IPR Legal Services in TN & INDIA
-                </li>
-                <li
-                  onClick={() => {
-                    navigate("/family-matrimonial");
-                  }}
-                >
-                  <DoubleRightOutlined className="mx-1" />
-                  Family & Divorce Lawyers in TN & INDIA
-                </li>
-                <li
-                  onClick={() => {
-                    navigate("/criminal-law");
-                  }}
-                >
-                  <DoubleRightOutlined className="mx-1" />
-                  Criminal Lawyer in TN & INDIA
-                </li>
-                <li
-                  onClick={() => {
-                    navigate("/civil-commercial");
-                  }}
-                >
-                  <DoubleRightOutlined className="mx-1" />
-                  Civil & Commercial Lawyer in TN & INDIA
-                </li>
-                <li
-                  onClick={() => {
-                    navigate("/mortgage-claims");
-                  }}
-                >
-                  <DoubleRightOutlined className="mx-1" />
-                  Mortgage Lawyer in TN & INDIA
-                </li>
-                <li
-                  onClick={() => {
-                    navigate("/insurance-claims");
-                  }}
-                >
-                  <DoubleRightOutlined className="mx-1" />
-                  Insurance Claim in TN & INDIA
-                </li>
-                <li
-                  onClick={() => {
-                    navigate("/labour-employment");
-                  }}
-                >
-                  <DoubleRightOutlined className="mx-1" />
-                  Labor & Employment in TN & INDIA
-                </li>
-                <li
-                  onClick={() => {
-                    navigate("/debt-recovery");
-                  }}
-                >
-                  <DoubleRightOutlined className="mx-1" />
-                  Debt Recovery in TN & INDIA
-                </li>
-                <li
-                  onClick={() => {
-                    navigate("/real-estate");
-                  }}
-                >
-                  <DoubleRightOutlined className="mx-1" />
-                  Real Estate in TN & INDIA
-                </li>
-              </ul>
+                <DoubleRightOutlined className="mx-1" />
+                Corporate Legal Services in TN & INDIA
+              </Link>
+              <Link
+                className="ministyle text-decoration-none"
+                to="/intellectual-property-rights"
+                
+              >
+                <DoubleRightOutlined className="mx-1" />
+                IPR Legal Services in TN & INDIA
+              </Link>
+              <Link
+                className="ministyle text-decoration-none"
+                to="/family-matrimonial"
+              >
+                <DoubleRightOutlined className="mx-1" />
+                Family & Divorce Lawyers in TN & INDIA
+              </Link>
+              <Link
+                className="ministyle text-decoration-none"
+                to="/criminal-law"
+              >
+                <DoubleRightOutlined className="mx-1" />
+                Criminal Lawyer in TN & INDIA
+              </Link>
+              <Link
+                className="ministyle text-decoration-none"
+                to="/civil-commercial"
+              >
+                <DoubleRightOutlined className="mx-1" />
+                Civil & Commercial Lawyer in TN & INDIA
+              </Link>
+              <Link
+                className="ministyle text-decoration-none"
+                to="/mortgage-claims"
+              >
+                <DoubleRightOutlined className="mx-1" />
+                Mortgage Lawyer in TN & INDIA
+              </Link>
+              <Link
+                className="ministyle text-decoration-none"
+                to="/insurance-claims"
+              >
+                <DoubleRightOutlined className="mx-1" />
+                Insurance Claim in TN & INDIA
+              </Link>
+              <Link
+                className="ministyle text-decoration-none"
+                to="/labour-employment"
+              >
+                <DoubleRightOutlined className="mx-1" />
+                Labor & Employment in TN & INDIA
+              </Link>
+              <Link
+                className="ministyle text-decoration-none"
+                to="/debt-recovery"
+              >
+                <DoubleRightOutlined className="mx-1" />
+                Debt Recovery in TN & INDIA
+              </Link>
+              <Link className="ministyle text-decoration-none" to="/real-estate">
+                <DoubleRightOutlined className="mx-1" />
+                Real Estate in TN & INDIA
+              </Link>
             </div>
           </div>
-          <div className="col">
+          <div className="col py-lg-0 py-3">
             <p style={{ color: "#BF976C" }} className="text-start">
               Best Advocates and Lawyers in TN & All over INDIA
             </p>
             <hr className="bg-light" style={{ border: "1px dashed" }} />
-            <div className="d-flex ">
-              <ul
-                style={{ fontSize: "17px" }}
-                className="practice-area-ul text-start list-unstyled text-light  "
+            <div className="d-flex flex-column  text-start list-unstyled text-light ">
+              <Link
+                className="ministyle text-decoration-none"
+                to="/intellectual-property-rights"
               >
-                <li
-                  onClick={() => {
-                    navigate("/intellectual-property-rights");
-                  }}
-                >
-                  <DoubleRightOutlined className="mx-1" />
-                  IP Attorney in TN & INDIA
-                </li>
-                <li
-                  onClick={() => {
-                    navigate("/criminal-law");
-                  }}
-                >
-                  <DoubleRightOutlined className="mx-1" />
-                  Criminal Law Advocates in TN & INDIA
-                </li>
+                <DoubleRightOutlined className="mx-1" />
+                IP Attorney in TN & INDIA
+              </Link>
+              <Link
+                className="ministyle text-decoration-none"
+                to="/criminal-law"
+              >
+                <DoubleRightOutlined className="mx-1" />
+                Criminal Law Advocates in TN & INDIA
+              </Link>
 
-                <li
-                  onClick={() => {
-                    navigate("/real-estate");
-                  }}
-                >
-                  <DoubleRightOutlined className="mx-1" />
-                  Real Estate & Property Lawyer in TN & INDIA
-                </li>
-                <li
-                  onClick={() => {
-                    navigate("/debt-recovery");
-                  }}
-                >
-                  <DoubleRightOutlined className="mx-1" />
-                  DEBT Recovery in TN & INDIA
-                </li>
-                <li>
-                  <DoubleRightOutlined className="mx-1" />
-                  Will Drafting Services in TN & INDIA
-                </li>
-                <li
-                  onClick={() => {
-                    navigate("/insurance-claims");
-                  }}
-                >
-                  <DoubleRightOutlined className="mx-1" />
-                  Insurance Lawyer in TN & INDIA
-                </li>
-                <li
-                  onClick={() => {
-                    navigate("/labour-employment");
-                  }}
-                >
-                  <DoubleRightOutlined className="mx-1" />
-                  Labor & Employment Lawyer in TN & INDIA
-                </li>
-              </ul>
+              <Link className="ministyle text-decoration-none" to="/real-estate">
+                <DoubleRightOutlined className="mx-1" />
+                Real Estate Lawyer in TN & INDIA
+              </Link>
+              <Link
+                className="ministyle text-decoration-none"
+                to="/debt-recovery"
+              >
+                <DoubleRightOutlined className="mx-1" />
+                DEBT Recovery in TN & INDIA
+              </Link>
+              <Link className="ministyle text-decoration-none" to="/">
+                <DoubleRightOutlined className="mx-1" />
+                Will Drafting Services in TN & INDIA
+              </Link>
+              <Link
+                className="ministyle text-decoration-none"
+                to="/insurance-claims"
+              >
+                <DoubleRightOutlined className="mx-1" />
+                Insurance Lawyer in TN & INDIA
+              </Link>
+              <Link
+                className="ministyle text-decoration-none"
+                to="/labour-employment"
+              >
+                <DoubleRightOutlined className="mx-1" />
+                Labor & Employment in TN & INDIA
+              </Link>
             </div>
           </div>
         </div>
@@ -265,23 +233,26 @@ function Footer() {
             </p>
             <hr className="bg-light w-75 " style={{ border: "1px dashed" }} />
 
-            <ul
+            <div
               style={{ fontSize: "17px" }}
-              className=" practice-area-ul text-start list-unstyled text-light  "
+              className="d-flex flex-column text-start list-unstyled text-light  "
             >
-              <li>Blogs</li>
-              <li>Copyright Notice</li>
-              <li>Privacy Policy</li>
-              <li>Disclaimer</li>
-              <li
-                onClick={() => {
-                  window.location.href =
-                    "https://www.google.com/maps/place/Highbrows+Legal/@9.9207708,78.0989202,13z/data=!4m19!1m12!4m11!1m6!1m2!1s0x3b00c5bd8435e88b:0x30eb36667125100c!2sHighbrows+Legal!2m2!1d78.1401198!2d9.9206888!1m3!2m2!1d78.1473287!2d9.9654933!3m5!1s0x3b00c5bd8435e88b:0x30eb36667125100c!8m2!3d9.9206888!4d78.1401198!16s%2Fg%2F11wtw1gqff?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D";
-                }}
+              <Link className="ministyle text-decoration-none" to="/blog">
+                Blogs
+              </Link>
+              <Link className="ministyle text-decoration-none" to="/copyrights">
+                Copyright Notice
+              </Link>
+              <Link
+                className="ministyle text-decoration-none"
+                to="/privacy-policy"
               >
-                Sitemap
-              </li>
-            </ul>
+                Privacy Policy
+              </Link>
+              <Link className="ministyle text-decoration-none" to="/disclaimer">
+                Disclaimer
+              </Link>
+            </div>
           </div>
         </div>
         <div className="row mt-4">
@@ -294,36 +265,36 @@ function Footer() {
               />
 
               <Space style={{ paddingInline: 3 }}>
-                <a style={{ paddingInline: 3 }} href="https://x.com/HighbrowsL">
+                <Link style={{ paddingInline: 3 }} to="https://x.com/HighbrowsL">
                   <XOutlined className="x-icon" style={{ fontSize: "25px" }} />
-                </a>
-                <a
+                </Link>
+                <Link
                   style={{ paddingInline: 3 }}
-                  href="https://www.instagram.com/highbrows_legal?igsh=a3QycmVlY29odGtm"
+                  to="https://www.instagram.com/highbrows_legal?igsh=a3QycmVlY29odGtm"
                 >
                   <InstagramOutlined
                     className="insta-icon"
                     style={{ fontSize: "25px" }}
                   />
-                </a>
-                <a
+                </Link>
+                <Link
                   style={{ paddingInline: 3 }}
-                  href="https://www.linkedin.com/company/highbrows-legal/"
+                  to="https://www.linkedin.com/company/highbrows-legal/"
                 >
                   <LinkedinOutlined
                     className="linkedin-icon"
                     style={{ fontSize: "25px" }}
                   />
-                </a>
-                <a
+                </Link>
+                <Link
                   style={{ paddingInline: 3 }}
-                  href="https://www.facebook.com/people/highbrows_legal/100066270802915/?locale=zh_TW"
+                  to="https://www.facebook.com/people/highbrows_legal/100066270802915/?locale=zh_TW"
                 >
                   <FacebookOutlined
                     className="facebook-icon"
                     style={{ fontSize: "25px" }}
                   />
-                </a>
+                </Link>
               </Space>
             </div>
           </div>

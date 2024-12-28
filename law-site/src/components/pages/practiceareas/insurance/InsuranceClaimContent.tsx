@@ -16,7 +16,7 @@ const InsuranceClaimContent = () => {
             style={{ borderRadius: "15px" }}
             className="img-fluid"
             src={legalimg}
-            alt=""
+            alt="Assessment"
           />
         </div>
 
@@ -53,7 +53,7 @@ const InsuranceClaimContent = () => {
             style={{ borderRadius: "15px" }}
             className="img-fluid"
             src={productimg}
-            alt=""
+            alt="Claims"
           />
         </div>
       </div>
@@ -67,7 +67,7 @@ const InsuranceClaimContent = () => {
             style={{ borderRadius: "15px" }}
             className="img-fluid"
             src={casualtyimg}
-            alt=""
+            alt="Property"
           />
         </div>
         <div className="col p-lg-3 px-lg-0 px-3 p-3">
@@ -104,7 +104,7 @@ const InsuranceClaimContent = () => {
             style={{ borderRadius: "15px" }}
             className="img-fluid"
             src={commercialimg}
-            alt=""
+            alt="Liability"
           />
         </div>
       </div>
@@ -117,7 +117,7 @@ const InsuranceClaimContent = () => {
             style={{ borderRadius: "15px" }}
             className="img-fluid"
             src={transactionsimg}
-            alt=""
+            alt="Litigation"
           />
         </div>
         <div className="col p-lg-3 px-lg-0 px-3 p-3">

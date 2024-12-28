@@ -16,7 +16,7 @@ function FamilyMatrimonial() {
         </div>
         <div className="col">
           <div className="">
-            <img className="img-thumbnail" src={famimg} alt="" />
+            <img className="img-thumbnail" src={famimg} alt="familylaw" />
           </div>
         </div>
       </div>

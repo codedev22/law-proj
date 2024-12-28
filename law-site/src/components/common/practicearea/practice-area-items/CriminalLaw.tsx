@@ -25,7 +25,7 @@ function CriminalLaw() {
         </div>
         <div className="col">
             <div className="">
-              <img className="img-thumbnail" src={criminalimg} alt="" />
+              <img className="img-thumbnail" src={criminalimg} alt="criminal" />
             </div>
           </div>
       </div>

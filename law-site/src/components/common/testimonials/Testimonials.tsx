@@ -5,9 +5,9 @@ function Testimonials() {
       <div  className="row px-lg-0 px-3  d-flex flex-column  flex-lg-row flex-md-column">
         <div style={{borderRadius:'15px'}} className="col client-parent py-3 ">
           <p className="opacity-50 fs-5 text-start text-lg-center">Our Clients</p>
-          <p className="fs-2 text-start text-lg-center">
+          <h1 className=" text-start text-lg-center">
             <b style={{ color: "#BF976C" }}>Testimonials</b>
-          </p>
+          </h1>
           <p className=" text-lg-center" style={{ fontSize: "18px",textAlign:'justify' }}>
             What Our Clients Say About Us Highbrows Legal is renowned for its
             team of exceptional lawyers in India and across Tamil Nadu. Our

@@ -19,7 +19,7 @@ const FamilyAndMatContent = () => {
             style={{ borderRadius: "15px" }}
             className="img-fluid"
             src={divorceimg}
-            alt=""
+            alt="Divorce"
           />
         </div>
 
@@ -61,7 +61,7 @@ const FamilyAndMatContent = () => {
             style={{ borderRadius: "15px" }}
             className="img-fluid"
             src={childimg}
-            alt=""
+            alt="Child"
           />
         </div>
       </div>
@@ -75,7 +75,7 @@ const FamilyAndMatContent = () => {
             style={{ borderRadius: "15px" }}
             className="img-fluid"
             src={alimonyimg}
-            alt=""
+            alt="Alimony"
           />
         </div>
         <div className="col p-lg-3 px-lg-0 px-3 p-3">
@@ -114,7 +114,7 @@ const FamilyAndMatContent = () => {
             style={{ borderRadius: "15px" }}
             className="img-fluid"
             src={domesticimg}
-            alt=""
+            alt="Domestic"
           />
         </div>
       </div>
@@ -127,7 +127,7 @@ const FamilyAndMatContent = () => {
             style={{ borderRadius: "15px" }}
             className="img-fluid"
             src={adoptimg}
-            alt=""
+            alt="Adoption"
           />
         </div>
         <div className="col p-lg-3 px-lg-0 px-3 p-3">
@@ -165,7 +165,7 @@ const FamilyAndMatContent = () => {
             style={{ borderRadius: "15px" }}
             className="img-fluid"
             src={inheritanceimg}
-            alt=""
+            alt="Inheritance"
           />
         </div>
       </div>
@@ -178,7 +178,7 @@ const FamilyAndMatContent = () => {
             style={{ borderRadius: "15px" }}
             className="img-fluid"
             src={parentimg}
-            alt=""
+            alt="Paternity"
           />
         </div>
         <div className="col p-lg-3 px-lg-0 px-3 p-3">
