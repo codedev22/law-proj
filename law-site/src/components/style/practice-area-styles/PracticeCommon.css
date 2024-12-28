@@ -1,0 +1,49 @@
+.fade-in {
+  opacity: 0;
+  transition: opacity 0.3s ease, transform 1s ease;
+}
+
+.fade-in.show {
+  opacity: 1;
+  transform: translateY(5);
+  transform: 0.3s ease;
+}
+
+
+
+.more-icon1:hover {
+  transform: translateY(-5px);
+  transition: 0.3s ease;
+}
+
+.more-icon1 {
+  transition: 0.3s ease;
+}
+
+.more-icon2:hover {
+ transform: translateY(-5px); 
+  transition: 0.3s ease;
+}
+
+.more-icon2 {
+  transition: 0.3s ease;
+}
+
+
+
+
+
+
+
+
+.custom-color{
+  background-color: #18273E;
+}
+
+.custom-color1{
+  color: white;
+}
+
+.practice-parent{
+  background-color:#faf5ed ;
+}

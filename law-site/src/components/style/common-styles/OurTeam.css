@@ -1,0 +1,72 @@
+/* .img-container {
+    position: relative;
+  }
+  
+  .img-text {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+
+
+  }
+
+ 
+  
+  .img-container:hover .img-text {
+    display: block !important;
+    transition: 0.3s ease;
+  }
+  
+  .img-1 {
+    transition: opacity 0.3s ease;
+
+  }
+  
+  .img-container:hover .img-1 {
+    opacity: 0.5;
+    transition: 0.3s ease;
+
+  }
+   */
+
+
+   .img-container {
+    position: relative;
+    transition: 0.3s ease;
+  
+}
+  
+  .img-text {
+    position: absolute;
+    top: 50%; /* Start slightly below the center */
+    left: 50%;
+    transform: translate(-50%, 10%);
+    color: black;
+    /* box-shadow: 0px 0px 10px 1px; */
+    border-radius: 5px;
+    opacity: 0; /* Initially hidden */
+    transition: transform 0.5s ease, opacity 0.5s ease; /* Slide and fade effect */
+    transition: 0.3s ease;
+    padding: 2rem;
+}
+  
+  .img-container:hover .img-text {
+    transform: translate(-50%, -50%); /* Moves to the center */
+    opacity: 1; /* Makes the text visible */
+    transition: 0.3s ease;
+  }
+  
+  .img-1 {
+    transition: opacity 0.3s ease;
+  }
+  
+  .img-container:hover .img-1 {
+    opacity: 0.5;
+    
+  }
+  

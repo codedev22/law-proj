@@ -13,7 +13,7 @@
   .dropdown-menu:hover .dropdown-item:hover {
     opacity: 1; /* Ensure the hovered item is fully visible */
     background-color: transparent;
-    color: #C7B480;
+    color: #BF976C;
 
   }
 
@@ -36,151 +36,186 @@
     font-size: 25px;
 }
 
-.footer {
-    background-color: #f8f9fa; /* Example background color */
-    position: relative; /* Change to absolute if necessary */
-    bottom: 0;
-    padding: 1rem;
-    width: 100%;
-  }
 
-  /* .phone-icon-div{
-    transition: 0.3s ease;
+
+
+
+.ministyle {
+  transition: 0.1s ease;
+  color: white; /* Default text color is white */
 }
 
- .phone-icon-div :hover{
-    color: red;
-    transform: translateY(-5px);
-    transition: 0.3s ease;
+/* Hover effect */
+.ministyle:hover {
+  color: #BF976C; /* Changes text color on hover */
+  cursor: pointer; /* Adds pointer cursor for better UX */
+  transform: translateX(9px);
+  transition: 0.1s ease;
+}
+
+
+
+
+
+
+/* .adv-talk-div{
+  background-image: url('../../../assets//images/AdvocateTalk.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0px 0px 10px 2px;
+
+  transition: 0.3s ease;
+
+}
+
+
+
+.hammer-div{
+  background-image: url('../../../assets//images/Hammer.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0px 0px 10px 2px;
+  transition: 0.3s ease;
+
+
+}
+
+.money-div{
+  background-image: url('../../../assets//images/money.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0px 0px 10px 2px;
+  transition: 0.3s ease;
+
+}
+
+
+.adv-grp-div{
+  background-image: url('../../../assets//images/AdvocateGrp.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0px 0px 10px 2px;
+  transition: 0.3s ease;
+
 } */
 
-.phone-btn {
-    background-color: #dc3545 !important;  /* Default background color */
-    color: #fff !important; /* Default icon color */
-    transition: 0.3s ease !important;
-  }
-  
-  .phone-btn:hover {
-    background-color: white !important; /* Hover background color */
-  }
-  
-  .phone-btn .phone-icon {
-    transition: color 0.3s ease;
-  }
-  
-  .phone-btn:hover .phone-icon {
-    color: red !important; /* Change icon color on hover */
-
-  }
 
 
-  .mail-btn {
-    background-color: #dc3545 !important;  /* Default background color */
-    color: #fff !important; /* Default icon color */
-    transition: 0.3s ease !important;
-  }
-  
-  .mail-btn:hover {
-    background-color: white !important; /* Hover background color */
-  }
-  
-  .mail-btn .mail-icon {
-    transition: color 0.3s ease;
-  }
-  
-  .mail-btn:hover .mail-icon {
-    color: red !important; /* Change icon color on hover */
-
-  }
-
-  .whatsapp-float{
-    color: red;
-  }
-  
-  /* @media screen and (min-width: 990px) {
-   .footer{
-    width: 100%;
-   }
-
+.hover-effect:hover {
+  transform: scale(0.9);
+  transition: transform 0.3s ease, opacity 0.3s ease;
 }
-/* 
-@media screen and (min-width: 480px) {
-    .footer{
-        display: flex;
-        d;
-        flex-direction: column;
+
+
+
+  .hover-effect{
+    transition: 0.3s ease;
     }
- 
- }  */
 
-@media screen and (max-width: 503px) {
 
-  .footer {
-    background-color: #f8f9fa; /* Example background color */
-    position: relative; /* Change to absolute if necessary */
-    bottom: 0;
-    padding: 1rem;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .footcontainer-1 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 100%;
+/*   
+.hammer-div:hover{
+  transform: scale(0.9);
+  transition: 0.3s ease;
+  
   }
 
-  .footcontainer-1 .row {
-    flex-direction: column;
-    width: 100%;
+ .money-div:hover{
+  transform: scale(0.9);
+  transition: 0.3s ease;
+  
   }
 
-  .footrow-1{
+  
+.adv-grp-div:hover{
+  transform: scale(0.9);
+  transition: 0.3s ease;
+  
+  } */
+
+
+.practice-list {
+  display: none; /* Hide dropdown items by default */
+  padding: 1rem;
+  
+  list-style: none;
+
+}
+
+
+
+
+   
+  
+
+
+
+
+.practice-list li a {
+text-decoration: none !important;
+}
+
+.dropdown-item-container:hover .practice-list {
+  display: block; /* Show dropdown items on hover */
+  position: absolute;
+  background-color: #18273e;
+  z-index: 1000;
+}
+
+/* Media query for small screens */
+@media (max-width: 992px) {
+  .dropdown-item-container .dropdown-header {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .practice-list {
+    display: block; /* Always show items as a list */
+    position: static; /* Remove absolute positioning */
+    margin: 0;
     padding: 0;
-  }
-  .footcontainer-1 .col {
-    width: 100%;
-
-    margin-bottom: 30px;
+    list-style: none;
   }
 
-  .socialmedia,
-  .practice-area-ul {
-    width: 100%;
-    text-align: left;
+  .practice-list li a {
+    margin: 5px 0; /* Add spacing between items */
+  text-decoration: none;
   }
 
-  .socialmedia {
-    margin-bottom: 30px;
-  }
-  .social-container{
-    margin-top: 2rem !important;
- }
-
-  .phone-btn-adjuster {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .mail-btn-adjuster {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: start;
-    align-items: start;
+  .dropdown-item-container:hover .practice-list {
+    display: block; /* Ensure hover effect doesn't override small-screen behavior */
+    transition: 0.3s ease;
   }
 }
 
 
- .practice-area-ul li:hover {
-  color: #C7B480; /* Changes text color to red on hover */
-  cursor: pointer; /* Optional: Adds a pointer cursor for better UX */
-  transform: translateX(2px);
-  transition: 0.3s ease;
+
+
+/* Default styles for the list */
+
+.practice-list li {
+  margin: 5px 0;
+  padding: 3px;
+  color: #BF976C; /* Your desired text color */
 }
 
-.practice-area-ul li {
-  transition: 0.3s ease;
+
+
+
+
+
+
+
+
+/* .special-text{
+  font-size: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  margin: 0;
 
 }
-
+  */

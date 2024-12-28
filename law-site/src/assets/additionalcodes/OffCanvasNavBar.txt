@@ -1,0 +1,173 @@
+import React from "react";
+
+function OffCanvasNavBar() {
+  return (
+    <div>
+      <nav className="navbar">
+        <div style={{ backgroundColor: "#18273E" }} className="container-fluid">
+          
+          <div
+            className="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div className="offcanvas-header">
+              <h5 className="offcanvas-title" id="offcanvasNavbarLabel">
+                Offcanvas
+              </h5>
+              {/* <button
+                style={{ color: "#C7B480" }}
+                type="button"
+                className="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button> */}
+            </div>
+            <div className="offcanvas-body">
+              <ul className="navbar-nav ">
+                <li className="nav-item ">
+                  <a
+                    style={{ color: "#C7B480" }}
+                    className="nav-link active "
+                    aria-current="page"
+                    href="#"
+                  >
+                    Home
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a
+                    style={{ color: "#C7B480" }}
+                    className="nav-link active "
+                    aria-current="page"
+                    href="#"
+                  >
+                    About us
+                  </a>
+                </li>
+                <div className="dropdown">
+                  <button
+                    style={{ marginTop: "0.1rem", color: "#C7B480" }}
+                    className="btn dropdown-toggle "
+                    type="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Practices Area
+                  </button>
+                  <ul
+                    style={{ backgroundColor: "#18273E" }}
+                    className="dropdown-menu"
+                  >
+                    <li>
+                      <a
+                        style={{ color: "#C7B480" }}
+                        className="dropdown-item"
+                        href="#"
+                      >
+                        Civil & Commercial
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        style={{ color: "#C7B480" }}
+                        className="dropdown-item"
+                        href="#"
+                      >
+                        Corporate Lawyers
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        style={{ color: "#C7B480" }}
+                        className="dropdown-item"
+                        href="#"
+                      >
+                        Family & Divorce
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        style={{ color: "#C7B480" }}
+                        className="dropdown-item"
+                        href="#"
+                      >
+                        Criminal Lawyer
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        style={{ color: "#C7B480" }}
+                        className="dropdown-item"
+                        href="#"
+                      >
+                        Mortgage Claim
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        style={{ color: "#C7B480" }}
+                        className="dropdown-item"
+                        href="#"
+                      >
+                        Insurance Claim
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        style={{ color: "#C7B480" }}
+                        className="dropdown-item"
+                        href="#"
+                      >
+                        Labor & Employment
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <li className="nav-item">
+                  <a
+                    style={{ color: "#C7B480" }}
+                    style={{ color: "#C7B480" }}
+                    className="nav-link active "
+                    aria-current="page"
+                    href="#"
+                  >
+                    Blog
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a
+                    style={{ color: "#C7B480" }}
+                    className="nav-link active "
+                    aria-current="page"
+                    href="#"
+                  >
+                    Contact
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  );
+}
+
+export default OffCanvasNavBar;
+
+
+ {/* <a href="2" className="navbar-brand  d-lg-flex"></a>
+          <button
+          style={{ backgroundColor: "#C7B480" }}
+            className="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span className="navbar-toggler-icon"></span>
+          </button> */}

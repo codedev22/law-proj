@@ -1,0 +1,72 @@
+.glass-icon2{
+    margin-bottom: 1.2rem !important;
+    margin-left: -2.9rem !important;
+color: #BF976C;
+}
+
+.plane-icon2{
+    margin-bottom: 1.0rem !important;
+    margin-left: -3.1rem !important;
+color: #BF976C;
+}
+
+.bank-icon2{
+    margin-bottom: 1.0rem !important;
+    margin-left: -3.1rem !important;
+color: #BF976C; 
+}
+
+.award-icon{
+    color: #BF976C; 
+}
+
+.legacy-icon{
+    color: #BF976C; 
+}
+
+.found-icon{
+    color: #BF976C; 
+}
+
+
+.plane-icon1:hover{
+transform: translate(20px, -20px) !important;
+transition: 0.3s ease;
+}
+
+.plane-icon1{
+    transition: 0.3s ease;
+}
+
+.glass-icon1:hover{
+    transform: scale(1.2); /* 1.5 times the original size */
+    transition: 0.3s ease;
+}
+
+.glass-icon1{
+    transition: 0.3s ease;
+}
+
+.bank-icon1:hover{
+transform: translateX(-12px);
+transition: 0.3s ease;
+}
+
+.bank-icon1{
+    transition: 0.3s ease;
+    }
+
+    /* .request-list:focus{
+        outline: 1px solid #BF976C;
+        background-color: rgb(247, 242, 242);
+        transition: 0.3s ease;
+
+    } */
+
+
+
+    .aboutfirm-parent{
+        background-color: #faf5ed;
+    }
+
+  
